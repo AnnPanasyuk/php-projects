@@ -1,5 +1,4 @@
 <?php
-echo 'hello';
 
     function grid($n, $m, $def) {
         $grid = [];
@@ -10,11 +9,10 @@ echo 'hello';
                 $grid[$i][$j] = $def;
             }
         }
-
         return $grid;
     }
 
-    $n = 5;
-    $m = 6;
+    $n = 2;
+    $m = 3;
 
     var_dump(grid($n, $m, 'x'));

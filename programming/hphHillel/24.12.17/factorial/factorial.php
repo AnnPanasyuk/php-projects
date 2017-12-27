@@ -9,10 +9,10 @@
 //    echo $res;
 
     function factor($a) {
-
         if ($a <= 1) {
             return 1;
         }
         return $a * factor($a -1);
     }
     echo factor(5);
+
