@@ -9,28 +9,28 @@
     function plus() {
         $array = getValues('value1', 'value2');
         $result = $array[0] + $array[1];
-        echo '<h2>' . 'Sum of values = ' . $result . '</h2>';
+        echo '<h2 class="result">' . 'Sum of values = ' . $result . '</h2>';
         return $result;
     }
 
     function minus() {
         $array = getValues('value1', 'value2');
         $result = $array[0] - $array[1];
-        echo '<h2>' . 'Difference of values = ' . $result . '</h2>';
+        echo '<h2 class="result">' . 'Difference of values = ' . $result . '</h2>';
         return $result;
     }
 
     function divide() {
         $array = getValues('value1', 'value2');
         $result = $array[0] / $array[1];
-        echo '<h2>' . 'Result of divide = ' . $result . '</h2>';
+        echo '<h2 class="result">' . 'Result of divide = ' . $result . '</h2>';
         return $result;
     }
 
     function multiple() {
         $array = getValues('value1', 'value2');
         $result = $array[0] * $array[1];
-        echo '<h2>' . 'Product of values = ' . $result . '</h2>';
+        echo '<h2 class="result">' . 'Product of values = ' . $result . '</h2>';
         return $result;
     }
 
@@ -54,5 +54,3 @@
     }
 
     actions('action', 'plus', 'minus', 'divide', 'multiply');
-
-    require_once './home.php';

@@ -10,7 +10,7 @@
     <div class="calculator">
         <div class="container">
             <h2>CALCULATOR</h2>
-            <form action="./model/calculator.php" method="post">
+            <form action="index.php" method="post">
                 <input type="text" placeholder="First value" name="value1" required>
                 <input type="text" placeholder="Second value" name="value2" required>
                 <div class="actions">
@@ -25,3 +25,6 @@
     </div>
 </body>
 </html>
+<?php
+    require_once '/var/www/html/calculator/model/calculator.php';
+?>
