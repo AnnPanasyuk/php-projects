@@ -1,0 +1,155 @@
+html {
+  position: relative;
+  body {
+    .hiddenContainerForForm {
+      width: 60%;
+      padding: 4vw 10%;
+      background-color: #ffffff;
+      .containerForForm {
+        .titleForForm {
+          width: 100%;
+          margin: 0 auto 3vw;
+          h2 {
+            font-family: OpenSans-Light;
+            line-height: 1.3;
+            padding: 0 0 2vw;
+            font-size: 3vw;
+            color: $colorS;
+            text-align: center;
+            @media (min-width: 100px) and (max-width: 475px) {
+              font-size: 5vw;
+            }
+          }
+          hr {
+            border: none;
+            height: 0.2vw;
+            margin: 0 auto;
+            width: 8vw;
+            color: $gold;
+            background-color: $gold;
+            @media (min-width: 100px) and (max-width: 475px) {
+              width: 30vw;
+              height: 0.8vw;
+            }
+          }
+        }
+        .formBuy {
+          height: 100%;
+          .form-group {
+
+            input, select {
+              width: 100%;
+              height: 3.2vw;
+              border: none;
+              margin: 0 0 1vw;
+              font-size: 1.5vw;
+              font-family: Oswald-Medium;
+              color: $gray;
+              border-bottom: 2px solid $colorS;
+              outline: none;
+              text-decoration: none;
+              background-color: transparent;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              &:focus {
+                text-decoration: none;
+                border: none;
+                border-bottom: 2px solid $gold;
+                outline: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+              }
+              @media (min-width: 100px) and (max-width: 475px) {
+                height: 8vw;
+                font-size: 2.5vw;
+              }
+            }
+            select {
+              option {
+                text-decoration: none;
+                border: none;
+                outline: none;
+                background-color: #ffffff;
+                color: #5c5c5c;
+                font-size: 1.5vw;
+                font-family: Oswald-Medium;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                &:hover, &:focus {
+                  text-decoration: none;
+                  border: none;
+                  outline: none;
+                  background-color: #5c5c5c;
+                  color: #ffffff;
+                  -webkit-box-shadow: none;
+                  box-shadow: none;
+                  cursor: pointer;
+                }
+              }
+              @media (min-width: 100px) and (max-width: 475px) {
+                height: 8vw;
+                font-size: 2.5vw;
+              }
+            }
+            ::-webkit-input-placeholder {color:$gray;}
+            ::-moz-placeholder          {color:$gray;}/* Firefox 19+ */
+            :-moz-placeholder           {color:$gray;}/* Firefox 18- */
+            :-ms-input-placeholder      {color:$gray;}
+
+          }
+          .button3 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            button {
+              color: $colorS;
+              font-family: OpenSans-Extrabold;
+              font-size: 1.1vw;
+              width: -webkit-calc(100% / 2);
+              width: calc(100% / 2);
+              height: 4vw;
+              background-color: transparent;
+              margin: 5vw 0 1vw;
+              border: 1px solid $gold;
+              -webkit-box-shadow: none;
+              box-shadow: none;
+              text-decoration: none;
+              &:hover {
+                background-color: $gold;
+                border: 1px solid $gold;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                outline: none;
+                text-decoration: none;
+              }
+              @media (min-width: 100px) and (max-width: 475px) {
+                height: 9vw;
+                font-size: 2.1vw;
+              }
+            }
+          }
+        }
+      }
+      @media (min-width: 100px) and (max-width: 475px) {
+        width: 90%;
+      }
+    }
+    a:focus {
+      text-decoration: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      outline: none;
+    }
+  }
+}

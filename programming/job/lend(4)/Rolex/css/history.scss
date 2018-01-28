@@ -1,0 +1,205 @@
+html {
+  body {
+    .history {
+      width: 100%;
+      .containerForHistory {
+        position: relative;
+        width: 100%;
+        .back-containerForHistory {
+          @extend %back-container;
+          background: url("../img/history/parallax-bg.png") fixed no-repeat 100% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+          .container {
+            .containerForCardOfHistory {
+              width: 100%;
+              position: absolute;
+              height: 100%;
+              background-color: transparent;
+              top: 0;
+              left: 0;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+              -webkit-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              .cardForHistory {
+                -ms-flex-item-align: center;
+                -webkit-align-self: center;
+                align-self: center;
+                width: -webkit-calc(100% / 1.6);
+                width: calc(100% / 1.6);
+                padding: 2vw;
+                background-color: #ffffff;
+                .tableInCardForHistory {
+                  border: 2px solid $gold;
+                  padding: 4vw 7vw;
+                  h2 {
+                    font-family: OpenSans-Extrabold;
+                    font-size: 1.5em;
+                    color: $colorS;
+                    text-align: center;
+                    margin: 0 0 2vw;
+                    @media (min-width: 100px) and (max-width: 768px) {
+                      font-size: 1em;
+                    }
+                    @media (min-width: 100px) and (max-width: 480px) {
+                      font-size: 1.5em;
+                    }
+                  }
+                  p {
+                    font-family: OpenSans-Light;
+                    font-size: 0.9em;
+                    line-height: 1.3;
+                    color: #000000;
+                    text-align: center;
+                    margin: 0 0 2vw;
+                    @media (min-width: 100px) and (max-width: 768px) {
+                      font-size: 0.7em;
+                    }
+                    @media (min-width: 100px) and (max-width: 480px) {
+                      font-size: 0.8em;
+                    }
+                  }
+                  .button {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    -webkit-flex-direction: row;
+                    flex-direction: row;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    a {
+                      width: 36%;
+                      height: 52px;
+                      -webkit-align-self: center;
+                      -ms-flex-item-align: center;
+                      align-self: center;
+                      margin: 2vw 0 0;
+                      text-decoration: none;
+                      background: -webkit-gradient(linear, left bottom, left top, from($orange), to($yellow));
+                      background: -webkit-linear-gradient(bottom, $orange, $yellow);
+                      background: -o-linear-gradient(bottom, $orange, $yellow);
+                      background: linear-gradient(to top, $orange, $yellow);
+                      &:hover {
+                        background: -webkit-gradient(linear, left bottom, left top, from($yellow), to($orange));
+                        background: -webkit-linear-gradient(bottom, $yellow, $orange);
+                        background: -o-linear-gradient(bottom, $yellow, $orange);
+                        background: linear-gradient(to top, $yellow, $orange);
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        outline: none;
+                        text-decoration: none;
+                        border: none;
+                      }
+                      &:focus, &:visited {
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        outline: none;
+                        border: none;
+                        text-decoration: none;
+                      }
+                      button {
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid $gold;
+                        font-family: OpenSans-Extrabold;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        background: -webkit-gradient(linear, left bottom, left top, from($orange), to($yellow));
+                        background: -webkit-linear-gradient(bottom, $orange, $yellow);
+                        background: -o-linear-gradient(bottom, $orange, $yellow);
+                        background: linear-gradient(to top, $orange, $yellow);
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        text-decoration: none;
+                        &:hover {
+                          background: -webkit-gradient(linear, left bottom, left top, from($yellow), to($orange));
+                          background: -webkit-linear-gradient(bottom, $yellow, $orange);
+                          background: -o-linear-gradient(bottom, $yellow, $orange);
+                          background: linear-gradient(to top, $yellow, $orange);
+                          -webkit-box-shadow: none;
+                          box-shadow: none;
+                          outline: none;
+                          border: none;
+                          text-decoration: none;
+                        }
+                        &:focus, &:visited {
+                          -webkit-box-shadow: none;
+                          box-shadow: none;
+                          border: none;
+                          outline: none;
+                          text-decoration: none;
+                        }
+                        @media (min-width: 100px) and (max-width: 768px) {
+                          font-size: 11px;
+                        }
+                        @media (min-width: 100px) and (max-width: 680px) {
+                          font-size: 9px;
+                        }
+                        @media (min-width: 100px) and (max-width: 480px) {
+                          font-size: 16px;
+                        }
+                        @media (min-width: 100px) and (max-width: 375px) {
+                          font-size: 13px;
+                        }
+                        @media (min-width: 100px) and (max-width: 320px) {
+                          font-size: 10px;
+                        }
+                      }
+                      @media (min-width: 100px) and (max-width: 830px) {
+                        width: 43%;
+                        height: 5vw;
+                      }
+                      @media (min-width: 100px) and (max-width: 480px) {
+                        width: 52%;
+                        height: 9vw;
+                      }
+                      @media (min-width: 100px) and (max-width: 320px) {
+                        height: 30px;
+                      }
+                    }
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    border: none;
+                  }
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  width: 100%;
+                  padding: 8vw 2vw;
+                }
+              }
+            }
+          }
+        }
+        &:before {
+          @extend %forBefore;
+          padding: 38%;
+        }
+        @media (min-width: 100px) and (max-width: 480px) {
+          &:before {
+            padding: 50%;
+          }
+        }
+        @media (min-width: 100px) and (max-width: 375px) {
+          height: 160vw;
+        }
+      }
+    }
+  }
+}

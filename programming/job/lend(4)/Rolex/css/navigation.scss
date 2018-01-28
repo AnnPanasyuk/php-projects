@@ -1,0 +1,108 @@
+html {
+  body {
+    .navigation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10000;
+      height: 5.5vw;
+      background-color: #ffffff;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.28) 0.8vw 0 1.5vw;
+      box-shadow: rgba(0, 0, 0, 0.28) 0.8vw 0 1.5vw;
+      .container {
+        height: 100%;
+        .menu {
+          -ms-flex-item-align: center;
+          -webkit-align-self: center;
+          align-self: center;
+          a {
+            font-family: OpenSans;
+            display: inline-block;
+            text-decoration: none;
+            color: $colorS;
+            font-size: 1em;
+            padding: 15px 10px;
+            &:hover {
+              color: $gold;
+            }
+            @media (min-width: 751px) and (max-width: 1024px) {
+              font-size: 12px;
+            }
+            @media (min-width: 100px) and (max-width: 750px) {
+              font-size: 0.6em;
+            }
+          }
+          i {
+            display: none;
+            font-size: 4vw;
+            color: $colorS;
+            position: absolute;
+            top: 2vw;
+            right: 4vw;
+            background-color: #FFFFFF;
+            @media (min-width: 100px) and (max-width: 650px) {
+              display: block;
+            }
+            @media (min-width: 321px) and (max-width: 375px) {
+              font-size: 5vw;
+            }
+            @media (min-width: 100px) and (max-width: 320px) {
+              font-size: 33px;
+              top: 15px;
+              right: 20px;
+            }
+          }
+          .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            width: 100%;
+            padding: 0 0 2vw;
+            border: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            background-color: #FFFFFF;
+            li {
+              text-align: center;
+              margin: 1vw 0;
+              a {
+                text-decoration: none;
+                text-align: center;
+                font-size: 2.4vw;
+                font-family: OpenSans;
+                color: $colorS;
+                &:hover {
+                  text-decoration: underline;
+                }
+                @media (min-width: 320px) and (max-width: 425px) {
+                  font-size: 3vw;
+                }
+                @media (min-width: 100px) and (max-width: 320px) {
+                  font-size: 5vw;
+                }
+              }
+              @media (min-width: 100px) and (max-width: 320px) {
+                margin: 2vw 0;
+              }
+            }
+          }
+        }
+        .menu > a {
+          @media (min-width: 100px) and (max-width: 650px) {
+            display: none;
+          }
+        }
+      }
+      @media (min-width: 376px) and (max-width: 650px) {
+        height: 8vw;
+      }
+      @media (min-width: 321px) and (max-width: 375px) {
+        height: 12vw;
+      }
+      @media (min-width: 100px) and (max-width: 320px) {
+        height: 64px;
+      }
+    }
+  }
+}

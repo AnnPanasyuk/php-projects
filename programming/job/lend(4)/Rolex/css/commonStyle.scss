@@ -1,0 +1,67 @@
+$colorS: #595f70;
+$gold:   #e1ca87;
+$yellow: #ffdd00;
+$orange: #ff9600;
+$gray: #5c5c5c;
+$e7: #e7e7e7;
+html {
+  body {
+    overflow-x: hidden;
+    .container {
+      width: 87%;
+      margin: 0 auto;
+      .containerForLogo {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        .logo {
+          -ms-flex-item-align: center;
+          -webkit-align-self: center;
+          align-self: center;
+          position: relative;
+          width: 15vw;
+          .back-containerForLogo {
+            @extend %back-container;
+            background: url("../img/logo.png") no-repeat 20% 100%;
+            -webkit-background-size: contain;
+            background-size: contain;
+          }
+          .back-containerForLogoInFooter {
+            @extend %back-container;
+            background: url("../img/logoInFooter.png") no-repeat 20% 100%;
+            -webkit-background-size: contain;
+            background-size: contain;
+          }
+          &:before {
+            @extend %forBefore;
+            padding: 12%;
+          }
+          @media (min-width: 321px) and (max-width: 500px) {
+            &:before {
+              padding: 18%;
+            }
+          }
+          @media (min-width: 100px) and (max-width: 320px) {
+            &:before {
+              padding: 28%;
+            }
+          }
+        }
+      }
+      //@media (min-width: 100px) and (max-width: 480px) {
+      //  width: ;
+      //}
+    }
+  }
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rolex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/materialdesignicons.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="container">
+            <div class="containerForLogo">
+                <div class="logo">
+                    <div class="back-containerForLogo"></div>
+                </div>
+                <div class="menu" id="menu">
+                    <a id="a1" href="#slider">ПРЕИМУЩЕСТВА</a>
+                    <a id="a2" href="#ladiesWatch">ЖЕНСКИЕ</a>
+                    <a id="a3" href="#menSWatch">МУЖСКИЕ</a>
+                    <a id="a4" href="#delivery">ДОСТАВКА</a>
+                    <a id="a5" href="#reviews">ОТЗЫВЫ</a>
+                    <a id="order" data-fancybox data-src="#hidden-content" href="javascript:;">ЗАКАЗАТЬ</a>
+
+                   <i id="md-before" onclick="hiddenMenu(2)" class="mdi mdi-menu mBefore"></i>
+                    <i id="md-after" onclick="hiddenMenu(1)" class="mdi mdi-close mAfter"></i>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                            <li onclick="hiddenMenu(0)"><a href="#slider">ПРЕИМУЩЕСТВА</a></li>
+                            <li onclick="hiddenMenu(0)"><a id="ladiesUrl" href="#ladiesWatch">ЖЕНСКИЕ</a></li>
+                            <li onclick="hiddenMenu(0)"><a id="MenSUrl" href="#menSWatch">МУЖСКИЕ</a></li>
+                            <li onclick="hiddenMenu(0)"><a href="#delivery">ДОСТАВКА</a></li>
+                            <li onclick="hiddenMenu(0)"><a href="#reviews">ОТЗЫВЫ</a></li>
+                            <li onclick="hiddenMenu(0)"><a id="orderMb" data-fancybox data-src="#hidden-content" href="javascript:;">ЗАКАЗАТЬ</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="back-containerForHero">
+            <div class="container">
+                <div class="infoForHeader">
+                    <h1>СОВРЕМЕННЫЙ ЭТАЛОН КЛАССИЧЕСКИХ ЧАСОВ</h1>
+                    <hr>
+                    <p>Мы предлагаем великолепные копии мужских и женских швейцарских моделей Rolex, которые призваны вдохновить сердца мужчин и притягивать женские взгляды. Только опытным экспертам под силу отличить их от оригинала. Мы гарантируем первоклассное качество по адекватной цене.</p>
+                    <span>
+                        <a id="order0" data-fancybox data-src="#hidden-content" href="javascript:;">ЗАКАЗАТЬ ЧАСЫ</a>
+                    </span>
+                </div>
+                <a href="#footer"><img src="img/scroll-down.png"></a>
+            </div>
+        </div>
+    </div>
+    <div class="timerAndForm">
+        <div class="containerForTimerAndForm">
+            <div class="back-containerForTimerAndForm">
+                <div class="container">
+                    <div class="tableForTimerAmdForm">
+                        <div class="cardForTimerAndForm">
+                            <div class="titleOfCardForTimerAndForm">
+                                <h2>Оформить заказ</h2>
+                                <hr>
+                            </div>
+                            <p class="endTimer">Успей приобрести водонепроницаемые часы Rolex! Время до конца акцции:</p>
+                            <div class="containerForTimerF">
+                                <div class="time">
+                                    <ul class="time">
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                    </ul>
+                                </div>
+                                <ul class="time-name">
+                                    <li>дней</li>
+                                    <li>часов</li>
+                                    <li>минут</li>
+                                    <li>секунд</li>
+                                </ul>
+                            </div>
+                            <form class="order-form" action="" method="POST" accepted-charset="utf-8">
+                                <!--<input type="hidden" name="country" value="name="country"">-->
+                                <!--<input type="hidden" name="key" value="key">-->
+                                <div class="form-group">
+                                    <!--<label for="name_last" class="control-label">Фамилия:</label>-->
+                                    <input type="text" class="form-control" placeholder="ИМЯ" name="name" id="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <!--<label for="name_first" class="control-label">Имя:</label>-->
+                                    <input type="text" class="form-control" placeholder="НОМЕР ТЕЛЕФОНА" name="phone" id="phone" required>
+                                </div>
+                                <!--<div class="form-group">-->
+                                    <!--&lt;!&ndash;<label for="phone" class="control-label">Телефон:</label>&ndash;&gt;-->
+                                    <!--<input type="text" class="form-control" placeholder="МОДЕЛЬ ЧАСОВ" name="model" id="model" required>-->
+                                <!--</div>-->
+                                <div class="form-group button">
+                                    <button type="submit" name="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider" id="slider">
+        <div class="back-containerForSlider">
+            <div class="titleOfContainerForSliders">
+                <h2>САМЫЕ ПОПУЛЯРНЫЕ КОПИИ<br> МОДЕЛЕЙ ROLEX НА РЫНКЕ</h2>
+                <hr>
+                <p>Изысканный и неповторимый дизайн часов повествует окружающим о достатке и отменном вкусе их владельца. Точный механизм станет для Вас хорошим другом.</p>
+            </div>
+            <div class="responsive">
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider1 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what">Дизайн</p>
+                    <p class="about">Копии часов бренда Rolex – это роскошный атрибут и украшение для успешных людей. В ансамбле с хорошим костюмом они великолепно дополнят стиль и элегантность.</p>
+                </div>
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider2 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what">Качество</p>
+                    <p
+                    class="about">Мы предлагаем самые качественные реплики часов Rolex, которые подчеркнуть деловую хватку, обеспеченность и надежность человека, чью руку они украшают. </p>
+                </div>
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider3 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what">Бренд</p>
+                    <p class="about">Rolex – наиболее авторитетный производитель часов, которыми хотят обзавестись миллионы людей. Копии Rolex привлекают первоклассным качеством и безупречным внешним видом. </p>
+                </div>
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider4 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what">Механизм</p>
+                    <p class="about">Механический хронограф с автоматическим подзаводом имеет калибр 4130. После установки механизма в корпус точность хода имеет прекрасные показатели (± 2 секунды в сутки).</p>
+                </div>
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider5 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what">Циферблат</p>
+                    <p class="about">Циферблат цвета шампанского идеально дополнит образ счастливого обладателя высококачественных часов Rolex. Счетчики со спиралевидным узором оптимально подчеркивают стиль и дизайн наших моделей.</p>
+                </div>
+                <div class="slide">
+                    <div class="containerForSImgOfSlider">
+                        <div class="back-containerForSImgOfSlider6 back-containerForSImgOfSlider"></div>
+                    </div>
+                    <p class="what"> Водонепроницаемость</p>
+                    <p class="about">Функции хронографа Daytona Gold позволяют обеспечить водонепроницаемость до глубины 70 метров. Наши модели надежно защищены от негативных воздействий влаги и брызг.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ladiesWatch" id="ladiesWatch">
+        <div class="back-containerForLadiesWatch">
+            <div class="container">
+                <div class="containerForLadiesWatch">
+                    <div class="titleOfLadiesWatch">
+                        <p class="rolex">ROLEX DATEJUST</p>
+                        <h2>ЖЕНСКИЕ ЧАСЫ</h2>
+                        <hr>
+                        <p class="model">Роскошная женская модель Rolex не боится воды и идеально защищена от царапин. Браслет выполнен в едином стиле с часовым механизмом.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ladiesWatchForMbVersion" id="ladiesWatchForMbVersion">
+        <div class="containerLadiesWatchForMbVersion">
+            <div class="back-containerLadiesWatchForMbVersion">
+            </div>
+        </div>
+        <div class="containerForInfoOfLadiesWatchOfMbV">
+            <div class="titleOfLadiesWatch">
+                <p class="rolex">ROLEX DATEJUST</p>
+                <h2>ЖЕНСКИЕ ЧАСЫ</h2>
+                <hr>
+                <p class="model">Роскошная женская модель Rolex не боится воды и идеально защищена от царапин. Браслет выполнен в едином стиле с часовым механизмом.</p>
+            </div>
+        </div>
+    </div>
+    <div class="characteristicOfLadiesWatch" id="characteristicOfLadiesWatch">
+        <div class="back-containerForCharacteristicOfLadiesWatch">
+            <div class="container">
+                <div class="flex-containerForInfoOfLadiesWatch">
+                    <div class="infoOfLadiesWatch">
+                        <h2>ХАРАКТЕРИСТИКИ МОДЕЛИ</h2>
+                        <hr>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Механизм: </p>
+                            <p class="about">ETA S.A.</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Стекло: </p>
+                            <p class="about">сапфировое, устойчиво к царапинам</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Корпус: </p>
+                            <p class="about">полированная сталь с золотым напылением</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Диаметр: </p>
+                            <p class="about">31 мм</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Браслет: </p>
+                            <p class="about">металлический с трехядерными округлыми звеньями</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Заводная головка: </p>
+                            <p class="about">привинчиваемая</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Отличительные характеристики: </p>
+                            <p class="about">водонепроницаемость, защита от влаги и брызг</p>
+                        </div>
+                        <a class="forVideo" data-fancybox href="https://www.youtube.com/watch?time_continue=11&v=F32VA0ojHp0">
+                            <div class="buttonForBlockAboutLadiesWatch">
+                                <img src="img/ladiesWatch/video-icon.png">
+                                СМОТРЕТЬ ВИДЕОРОЛИК
+                            </div>
+                        </a>
+                    </div>
+                    <div class="modelOfLadiesWatch">
+                        <div class="back-containerOfModelOfLadiesWatch"></div>
+                    </div>
+                    <div class="imgOfLadiesWatch">
+                        <div class="back-containerForImgOfLadiesWatch"></div>
+                    </div>
+                    <div class="descriptionOfLadiesWatch">
+                        <div class="newPrice">
+                            <div class="forNewPrice">
+                                <p class="newNumeral">1890</p>
+                                <p class="currency">грн.</p>
+                            </div>
+                            <p class="oldPrice">6000 грн.</p>
+                        </div>
+
+                        <p class="descriptionOfWatch">
+                            Швейцарские часы - знак качества, который почитают во всем мире. Под крышкой стального корпуса находится надежный швейцарский механизм, который сохраняет функционал аксессуара на 100%. Сплав часов отличается исключительной прочностью, поэтому ROLEX DATEJUST несомненно прослужит Вам догие годы.
+                        </p>
+                        <span>
+                            <a id="order2" data-fancybox data-src="#hidden-content1" href="javascript:;">ЗАКАЗАТЬ ЧАСЫ</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history">
+        <div class="containerForHistory">
+            <div class="back-containerForHistory">
+                <div class="container">
+                    <div class="containerForCardOfHistory">
+                        <div class="cardForHistory">
+                            <div class="tableInCardForHistory">
+                                <h2>За каждыми часами Rolex стоит своя история</h2>
+                                <p>Закажите наручные часы Rolex со скидкой 65% сегодня! Покупая Rolex в нашем магзине Вы ничем не рискуете. У нас 100% качественный товар, в этом Вы убедитесь сами!</p>
+                                <div class="button">
+                                    <a id="buttonForBlackContainer2" data-fancybox data-src="#hidden-content" href="javascript:;">
+                                        <button>ЗАКАЗАТЬ ЧАСЫ</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="MenSWatch ladiesWatch noLadiesForMenS" id="menSWatch">
+        <div class="back-containerForLadiesWatch back-containerForNoLadiesForMenSWatch">
+            <div class="container">
+                <div class="containerForLadiesWatch containerForNoLadiesWatch">
+                    <div class="titleOfLadiesWatch">
+                        <p class="rolex">ROLEX DAYTONA GOLD</p>
+                        <h2>МУЖСКИЕ ЧАСЫ</h2>
+                        <hr>
+                        <p class="model">Модель Daytona Gold отличается высоким уровнем надежности и сохранит свою красоту и функциональность даже в экстремальных условиях эксплуатации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ladiesWatchForMbVersion MenSWatchForMbVersion" id="MenSWatchForMbVersion">
+        <div class="containerLadiesWatchForMbVersion">
+            <div class="back-containerLadiesWatchForMbVersion back-containerMenSWatchForMbVersion">
+            </div>
+        </div>
+        <div class="containerForInfoOfLadiesWatchOfMbV">
+            <div class="titleOfLadiesWatch">
+                <p class="rolex">ROLEX DAYTONA GOLD</p>
+                <h2>МУЖСКИЕ ЧАСЫ</h2>
+                <hr>
+                <p class="model">Модель Daytona Gold отличается высоким уровнем надежности и сохранит свою красоту и функциональность даже в экстремальных условиях эксплуатации.</p>
+            </div>
+        </div>
+    </div>
+    <div class="characteristicOfMenSWatch characteristicOfLadiesWatch characteristicOfNoLadiesForMenSWatch" id="characteristicOfMenSWatch">
+        <div class="back-containerForCharacteristicOfLadiesWatch back-containerForCharacteristicOfNoLadiesForManSWatch">
+            <div class="container">
+                <div class="flex-containerForInfoOfLadiesWatch">
+                    <div class="infoOfLadiesWatch">
+                        <h2>ХАРАКТЕРИСТИКИ МОДЕЛИ</h2>
+                        <hr>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Механизм: </p>
+                            <p class="about">ETA S.A.</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Стекло: </p>
+                            <p class="about">сапфировое, устойчиво к царапинам</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Корпус: </p>
+                            <p class="about">полированная сталь с золотым напылением</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Диаметр: </p>
+                            <p class="about">40 мм</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Браслет: </p>
+                            <p class="about">металлический с трехядерными широкими и плоскими звеньями</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Заводная головка: </p>
+                            <p class="about">привинчиваемая</p>
+                        </div>
+                        <div class="containerForCharacteristicOfLadiesWatch">
+                            <p class="what">Отличительные характеристики: </p>
+                            <p class="about">водонепроницаемость, защита от влаги и брызг</p>
+                        </div>
+                        <a class="forVideo" data-fancybox href="https://www.youtube.com/watch?time_continue=11&v=F32VA0ojHp0">
+                            <div class="buttonForBlockAboutLadiesWatch">
+                                <img src="img/ladiesWatch/video-icon.png">
+                                СМОТРЕТЬ ВИДЕОРОЛИК
+                            </div>
+                        </a>
+                    </div>
+                    <div class="modelOfLadiesWatch modelOfNoLadiesForMenSWatch">
+                        <div class="back-containerOfModelOfLadiesWatch back-containerOfModelOfNoLadiesForMenWatch"></div>
+                    </div>
+                    <div class="imgOfLadiesWatch imgOfNoLadiesForMenSWatch">
+                        <div class="back-containerForImgOfLadiesWatch back-containerForImgOfNoLadiesMenSWatch"></div>
+                    </div>
+                    <div class="descriptionOfLadiesWatch">
+                        <div class="newPrice">
+                            <div class="forNewPrice">
+                                <p class="newNumeral">1890</p>
+                                <p class="currency">грн.</p>
+                            </div>
+                            <p class="oldPrice">6000 грн.</p>
+                        </div>
+
+                        <p class="descriptionOfWatch Men">
+                             ROLEX DAYTONA удовлетворит всем Вашим требованиям. Браслет часов, отличающийся прочностью и удобством, это совершенное сочетание формы и функциональности, эстетики и технологических достижений. Часы сохранят свою красоту даже при экстремальных условиях эксплуатации. Циферблат отражает стилистику бренда и обеспечивает отличную читаемость всех показаний.
+                        </p>
+                        <span>
+                            <a id="order3" data-fancybox data-src="#hidden-content" href="javascript:;">ЗАКАЗАТЬ ЧАСЫ</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="historyInBlackColor">
+        <div class="containerHistoryInBlackColor">
+            <div class="back-containerHistoryInBlackColor">
+                <div class="container">
+                    <div class="containerForCardOfHistory">
+                        <div class="cardForHistory">
+                            <div class="tableInCardForHistory">
+                                <h2>За каждыми часами Rolex стоит своя история</h2>
+                                <p>Закажите наручные часы Rolex со скидкой 65% сегодня! Покупая Rolex в нашем магзине Вы ничем не рискуете. У нас 100% качественный товар, в этом Вы убедитесь сами!</p>
+                                <div class="button">
+                                   <a id="buttonForBlackContainer" data-fancybox data-src="#hidden-content" href="javascript:;">
+                                       <button>ОФОРМИТЬ ЗАКАЗ</button>
+                                   </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="delivery" id="delivery">
+        <div class="container">
+            <div class="titleOfDelivery">
+                <h2>ДОСТАВКА И ОПЛАТА</h2>
+                <hr>
+                <p>Доставка осуществляетя сервисами Новая почта и Укрпочта в течении 2-3х дней. Оплата товара производится на пункте выдачи посылки.</p>
+            </div>
+            <div class="containerForImgOfParagraphOfDelivery">
+                <div class="paragraphs">
+                    <div class="back-containerForFirstParagraph back-containerForParagraph">
+                        <div class="descriptionForParagraphOfDelivery">
+                            <div class="imgForDelivery">
+                                <div class="back-containerImgForDelivery1"></div>
+                            </div>
+                            <p>Вы оставляете заявку</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="paragraphs">
+                    <div class="back-containerForSecondParagraph back-containerForParagraph">
+                        <div class="descriptionForParagraphOfDelivery">
+                            <div class="imgForDelivery">
+                                <div class="back-containerImgForDelivery2"></div>
+                            </div>
+                            <p>Мы связываемся с Вами</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="paragraphs">
+                    <div class="back-containerForThirdParagraph back-containerForParagraph">
+                        <div class="descriptionForParagraphOfDelivery">
+                            <div class="imgForDelivery">
+                                <div class="back-containerImgForDelivery3"></div>
+                            </div>
+                            <p>Отправляем Вашу посылку</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="paragraphs">
+                    <div class="back-containerForFourthParagraph back-containerForParagraph">
+                        <div class="descriptionForParagraphOfDelivery">
+                            <div class="imgForDelivery">
+                                <div class="back-containerImgForDelivery4"></div>
+                            </div>
+                            <p>Вы оплачиваете ее на почте</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews" id="reviews">
+        <div class="containerForReviews">
+            <div class="container">
+                <div class="titleOfReviews">
+                    <h2>ОТЗЫВЫ ПОКУПАТЕЛЕЙ</h2>
+                    <hr>
+                    <p>Что говорят покупатели о нашем товаре</p>
+                </div>
+                <div class="fade">
+                    <div class="cardOFReviews">
+                        <img src="img/reviews/4.png" />
+                        <blockquote>Благодарю за великолепный аксессуар. Часы – это первостепенное достоинство, которым нужно украшать запястье руки. Очень качественные ролексы, с которыми никогда не хочется расставаться.</blockquote>
+                        <p>Антон</p>
+                    </div>
+                    <div class="cardOFReviews">
+                        <img src="img/reviews/2.png" />
+                        <blockquote>У вас я купил прекрасную копию, которая ничем не уступает оригиналу. Существует большое различие между копией и подделкой швейцарских часов. Абсолютно точно могу сказать, что здесь не подделки, а копии высшего класса. Также порадовала быстрая доставка. Безумно приятно стало, когда на почте я увидел именно тот товар, который хотел заполучить.</blockquote>
+                        <p>Евгений</p>
+                    </div>
+                    <div class="cardOFReviews">
+                        <img src="img/reviews/3.png" />
+                        <blockquote>Часы выглядят солидно и стильно, не обнаружила никаких недостатков. С ними уверенно чувствуешь себя на любых встречах, мероприятиях, в гостях. Безумно довольна покупкой, которая оправдала все мои ожидания.</blockquote>
+                        <p>Наталья</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="timerAndForm">
+        <div class="containerForTimerAndForm">
+            <div class="back-containerForTimerAndForm back-containerForTimerAndForm2">
+                <div class="container">
+                    <div class="tableForTimerAmdForm">
+                        <div class="cardForTimerAndForm">
+                            <div class="titleOfCardForTimerAndForm">
+                                <h2>Оформить заказ</h2>
+                                <hr>
+                            </div>
+                            <p class="endTimer">Успей приобрести водонепроницаемые часы Rolex! Время до конца акцции:</p>
+                            <div class="containerForTimerF">
+                                <div class="time">
+                                    <ul class="time">
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                        <li class="time-bg">2</li>
+                                        <li class="time-bg">8</li>
+                                    </ul>
+                                </div>
+                                <ul class="time-name">
+                                    <li>дней</li>
+                                    <li>часов</li>
+                                    <li>минут</li>
+                                    <li>секунд</li>
+                                </ul>
+                            </div>
+                            <form class="order-form" action="" method="POST" accepted-charset="utf-8">
+                                <!--<input type="hidden" name="country" value="name="country"">-->
+                                <!--<input type="hidden" name="key" value="key">-->
+                                <div class="form-group">
+                                    <!--<label for="name_last" class="control-label">Фамилия:</label>-->
+                                    <input type="text" class="form-control" placeholder="ИМЯ" name="name" id="name2" required>
+                                </div>
+                                <div class="form-group">
+                                    <!--<label for="name_first" class="control-label">Имя:</label>-->
+                                    <input type="text" class="form-control" placeholder="НОМЕР ТЕЛЕФОНА" name="phone" id="phone2" required>
+                                </div>
+                                <!--<div class="form-group">-->
+                                <!--&lt;!&ndash;<label for="phone" class="control-label">Телефон:</label>&ndash;&gt;-->
+                                <!--<input type="text" class="form-control" placeholder="МОДЕЛЬ ЧАСОВ" name="model" id="model" required>-->
+                                <!--</div>-->
+                                <div class="form-group button">
+                                    <button type="submit" name="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="container">
+            <div class="containerForLogo">
+                <div class="logo">
+                    <div class="back-containerForLogoInFooter"></div>
+                </div>
+                <div class="info">
+                    <a>Политика конфиденциальности</a>
+                    <p>2017 Все права защищены</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="display: none;" class="hiddenContainerForForm" id="hidden-content">
+        <div class="containerForForm" id="containerForForm">
+            <div class="titleForForm">
+                <h2>ОФОРМИТЬ ЗАКАЗ</h2>
+                <hr>
+            </div>
+            <form class="order-form formBuy" action="" method="POST" accepted-charset="utf-8">
+                <!--<input type="hidden" name="country" value="name="country" ">-->
+                <!--<input type="hidden" name="key" value="key">-->
+                <div class="form-group">
+                    <!--<label for="name_last" class="control-label">Фамилия:</label>-->
+                    <input type="text" placeholder="ИМЯ" class="form-control" name="name" id="name3" required>
+                </div>
+                <div class="form-group">
+                    <!--<label for="name_first" class="control-label">Имя:</label>-->
+                    <input type="text" placeholder="НОМЕР ТЕЛЕФОНА" class="form-control" name="phone" id="phone3" required>
+                </div>
+                <!--<div class="form-group">-->
+                <!--<label for="phone" class="control-label">Телефон:</label>-->
+                <!--<input type="text" class="form-control" name="phone" id="phone3" required>-->
+                <!--</div>-->
+                <div class="form-group button3">
+                    <button type="submit" name="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div style="display: none;" class="hiddenContainerForForm" id="hidden-content1">
+        <div class="containerForForm" id="containerForForm1">
+            <div class="titleForForm">
+                <h2>ОФОРМИТЬ ЗАКАЗ</h2>
+                <hr>
+            </div>
+            <form class="order-form formBuy" action="" method="POST" accepted-charset="utf-8">
+                <!--<input type="hidden" name="country" value="name="country" ">-->
+                <!--<input type="hidden" name="key" value="key">-->
+                <div class="form-group">
+                    <!--<label for="name_last" class="control-label">Фамилия:</label>-->
+                    <input type="text" placeholder="ИМЯ" class="form-control" name="name" id="name4" required>
+                </div>
+                <div class="form-group form-group1">
+                    <!--<label for="name_first" class="control-label">Имя:</label>-->
+                    <input type="text" placeholder="НОМЕР ТЕЛЕФОНА" class="form-control" name="phoneFOrLadies" id="phone4" required>
+                </div>
+                <!--<div class="form-group">-->
+                <!--<label for="phone" class="control-label">Телефон:</label>-->
+                <!--<input type="text" class="form-control" name="phone" id="phone3" required>-->
+                <!--</div>-->
+                <div class="form-group button3">
+                    <button type="submit" name="submit">ОТПРАВИТЬ ЗАКАЗ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/show.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/forHtml.js"></script>
+</body>
+</html>

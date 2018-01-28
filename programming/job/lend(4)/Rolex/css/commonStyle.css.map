@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,oBAAW;EACT,KAAK,EAAE,wBAAwB;EAC/B,0BAAM;IACJ,QAAQ,EAAE,QAAQ;IAClB,KAAK,EAAE,cAAc",
+"sources": ["commonStyle.scss"],
+"names": [],
+"file": "commonStyle.css"
+}

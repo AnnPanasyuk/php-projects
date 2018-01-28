@@ -1,0 +1,44 @@
+/*body {*/
+/*scrollbar-face-color:#ad0016;*/
+/*scrollbar-shadow-color: #ad0016;*/
+/*scrollbar-highlight-color: #ad0016;*/
+/*scrollbar-3dlight-color: #ad0016;*/
+/*scrollbar-darkshadow-color: #ad0016;*/
+/*scrollbar-track-color: #ffffff;*/
+/*scrollbar-arrow-color: #F6F6F6;*/
+/*}*/
+/* For the "inset" look only */
+html {
+  /*overflow: auto;*/ }
+
+body {
+  /*position: absolute;*/
+  /*top: 20px;*/
+  /*left: 20px;*/
+  /*bottom: 20px;*/
+  /*right: 20px;*/
+  /*padding: 30px;*/
+  /*overflow-y: scroll;*/
+  overflow-x: hidden; }
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 0.8vw;
+  height: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+  /*-webkit-border-radius: 10px;*/
+  /*border-radius: 10px;*/ }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ad0016;
+  height: 10vw;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/ }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #ad0016; }
+
+/*# sourceMappingURL=scroll.css.map */

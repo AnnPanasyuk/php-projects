@@ -1,0 +1,244 @@
+html {
+  body {
+    .slider {
+      position: relative;
+      width: 100%;
+      padding: 0 0 15vw;
+      .back-containerForSlider {
+        @extend %back-container;
+        background: url("../img/bg-slider.png") no-repeat 100% 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        .titleOfContainerForSliders {
+          width: -webkit-calc(100% / 3);
+          width: calc(100% / 3);
+          margin: 0 auto;
+          h2 {
+            font-family: OpenSans;
+            text-align: center;
+            line-height: 1.3;
+            padding: 9vw 0 2vw;
+            font-size: 1.8em;
+            color: $colorS;
+            @media (min-width: 681px) and (max-width: 768px) {
+              font-size: 1.1em;
+            }
+            @media (min-width: 100px) and (max-width: 680px) {
+              font-size: 1em;
+            }
+            @media (min-width: 100px) and (max-width: 480px) {
+              font-size: 1.5em;
+            }
+          }
+          hr {
+            border: none;
+            height: 0.1vw;
+            width: 8vw;
+            margin: 0 auto;
+            color: $gold;
+            background-color: $gold;
+            @media (min-width: 100px) and (max-width: 480px) {
+              width: 40vw;
+              height: 0.8vw;
+            }
+          }
+          p {
+            font-family: OpenSans-Light;
+            margin: 2vw 0 10vw;
+            text-align: center;
+            letter-spacing: 0.1em;
+            line-height: 1.3;
+            font-size: 0.9em;
+            color: $colorS;
+            @media (min-width: 681px) and (max-width: 768px) {
+              font-size: 0.7em;
+            }
+            @media (min-width: 100px) and (max-width: 680px) {
+              font-size: 0.6em;
+            }
+            @media (min-width: 100px) and (max-width: 480px) {
+              font-size: 0.8em;
+            }
+          }
+          @media (min-width: 100px) and (max-width: 768px) {
+            width: -webkit-calc(100% / 2.5);
+            width: calc(100% / 2.5);
+          }
+          @media (min-width: 100px) and (max-width: 550px) {
+            width: -webkit-calc(100% / 2.2);
+            width: calc(100% / 2.2);
+          }
+          @media (min-width: 100px) and (max-width: 480px) {
+            width: 90%;
+          }
+        }
+        .bx-wrapper {
+          margin: 0 auto;
+          border: none;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          background: transparent;
+          @media (min-width: 650px) and (max-width: 680px) {
+            max-width: 61vw;
+          }
+        }
+        .responsive {
+          width: 65%;
+          margin: 0 auto;
+          .slick-active {
+            color: $gold;
+          }
+          li {
+            color: $colorS;
+          }
+          .mPrev {
+            position: absolute;
+            width: 5%;
+            top: 22%;
+            left: -10vw;
+          }
+          .mNext {
+            position: absolute;
+            width: 5%;
+            top: 22%;
+            right: -10vw;
+          }
+          .containerForArrow {
+            position: relative;
+            width: 100%;
+            .back-containerForArrow {
+              @extend %back-container;
+            }
+            .back-containerForPrev {
+              background: url("../img/slider/prev.png") no-repeat 100% 100%;
+              -webkit-background-size: cover;
+              background-size: cover;
+            }
+            .back-containerForNext {
+              background: url("../img/slider/next.png") no-repeat 100% 100%;
+              -webkit-background-size: cover;
+              background-size: cover;
+            }
+            &:before {
+              @extend %forBefore;
+              padding: 100%;
+            }
+            &:hover {
+              .back-containerForPrev {
+                background: url("../img/slider/prevHover.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              .back-containerForNext {
+                background: url("../img/slider/nextHover.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+            }
+          }
+          .slide {
+            margin: 0 1vw;
+            padding: 0 0 2vw;
+            .containerForSImgOfSlider {
+              position: relative;
+              width: 100%;
+              margin: 0 0 2vw;
+              .back-containerForSImgOfSlider {
+                @extend %back-container;
+              }
+              .back-containerForSImgOfSlider1 {
+                background: url("../img/slider/1-icon.png") no-repeat 50% 100%;
+                -webkit-background-size: contain;
+                background-size: contain;
+              }.back-containerForSImgOfSlider2 {
+                 background: url("../img/slider/2-icon.png") no-repeat 50% 100%;
+                 -webkit-background-size: contain;
+                 background-size: contain;
+               }.back-containerForSImgOfSlider3 {
+                  background: url("../img/slider/logo.png") no-repeat 50% 100%;
+                  -webkit-background-size: contain;
+                  background-size: contain;
+                }.back-containerForSImgOfSlider4 {
+                   background: url("../img/slider/1.png") no-repeat 50% 100%;
+                   -webkit-background-size: contain;
+                   background-size: contain;
+                 }.back-containerForSImgOfSlider5 {
+                    background: url("../img/slider/2.png") no-repeat 50% 100%;
+                    -webkit-background-size: contain;
+                    background-size: contain;
+                  }.back-containerForSImgOfSlider6 {
+                     background: url("../img/slider/3.png") no-repeat 50% 100%;
+                     -webkit-background-size: contain;
+                     background-size: contain;
+                   }
+
+              &:before {
+                @extend %forBefore;
+                padding: 12%;
+              }
+            }
+            .what {
+              text-align: center;
+              font-size: 1.2em;
+              color: $colorS;
+              margin: 0 0 1vw;
+              font-family: OpenSans;
+              @media (min-width: 681px) and (max-width: 768px) {
+                font-size: 1em;
+              }
+              @media (min-width: 100px) and (max-width: 680px) {
+                font-size: 0.9em;
+              }
+            }
+            .about {
+              font-family: OpenSans-Light;
+              text-align: center;
+              font-size: 0.9em;
+              color: $colorS;
+              @media (min-width: 100px) and (max-width: 768px) {
+                font-size: 0.7em;
+              }
+            }
+          }
+        }
+      }
+      &:before {
+        @extend %forBefore;
+        padding: 24%;
+      }
+      @media (min-width: 100px) and (max-width: 1200px) {
+        padding: 0;
+        &:before {
+          padding: 41%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 520px) {
+        &:before {
+          padding: 45%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 490px) {
+        &:before {
+          padding: 48%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 410px) {
+        &:before {
+          padding: 50%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 400px) {
+        height: 110vw;
+      }
+      @media (min-width: 100px) and (max-width: 360px) {
+        height: 120vw;
+      }
+      @media (min-width: 100px) and (max-width: 350px) {
+        height: 135vw;
+      }
+      @media (min-width: 100px) and (max-width: 320px) {
+        height: 165vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,2374 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans.woff") format("woff"), url("../fonts/OpenSans.ttf") format("truetype"), url("../fonts/OpenSans.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("../fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype"), url("../fonts/OpenSans-Light.svg#OpenSans-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'OpenSans-Extrabold';
+  src: url("../fonts/OpenSans-Extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Extrabold.woff") format("woff"), url("../fonts/OpenSans-Extrabold.ttf") format("truetype"), url("../fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url("../fonts/Oswald-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald-Medium.woff") format("woff"), url("../fonts/Oswald-Medium.ttf") format("truetype"), url("../fonts/Oswald-Medium.svg#Oswald-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+html body .container .containerForLogo .logo .back-containerForLogo, html body .container .containerForLogo .logo .back-containerForLogoInFooter, html body .hero .back-containerForHero, html body .slider .back-containerForSlider, html body .slider .back-containerForSlider .responsive .containerForArrow .back-containerForArrow, html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider, html body .ladiesWatch .back-containerForLadiesWatch, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch .back-containerOfModelOfLadiesWatch, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch .back-containerForImgOfLadiesWatch, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch .back-containerOfModelOfNoLadiesForMenWatch, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch .back-containerForImgOfNoLadiesMenSWatch, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm2, html body .MenSWatch .back-containerForNoLadiesForMenSWatch, html body .history .containerForHistory .back-containerForHistory, html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForFirstParagraph, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForSecondParagraph, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForThirdParagraph, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForFourthParagraph, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery1, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery2, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery3, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery4, html body .reviews .containerForReviews .container .fade .containerForArrow .back-containerForArrow, html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion .back-containerLadiesWatchForMbVersion, html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion .back-containerMenSWatchForMbVersion {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+html body .container .containerForLogo .logo:before, html body .hero:before, html body .slider .back-containerForSlider .responsive .containerForArrow:before, html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider:before, html body .slider:before, html body .ladiesWatch:before, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch:before, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch:before, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch:before, html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch:before, html body .characteristicOfLadiesWatch:before, html body .timerAndForm .containerForTimerAndForm:before, html body .MenSWatch:before, html body .history .containerForHistory:before, html body .historyInBlackColor .containerHistoryInBlackColor:before, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery:before, html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs:before, html body .reviews .containerForReviews .container .fade .containerForArrow:before, html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion:before {
+  content: "";
+  display: block; }
+
+html body {
+  overflow-x: hidden; }
+html body .container {
+  width: 87%;
+  margin: 0 auto; }
+html body .container .containerForLogo {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+html body .container .containerForLogo .logo {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  position: relative;
+  width: 15vw; }
+html body .container .containerForLogo .logo .back-containerForLogo {
+  background: url("../img/logo.png") no-repeat 20% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .container .containerForLogo .logo .back-containerForLogoInFooter {
+  background: url("../img/logoInFooter.png") no-repeat 20% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .container .containerForLogo .logo:before {
+  padding: 12%; }
+@media (min-width: 321px) and (max-width: 500px) {
+  html body .container .containerForLogo .logo:before {
+    padding: 18%; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .container .containerForLogo .logo:before {
+    padding: 28%; } }
+
+html body .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  height: 5.5vw;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.28) 0.8vw 0 1.5vw;
+  box-shadow: rgba(0, 0, 0, 0.28) 0.8vw 0 1.5vw; }
+html body .navigation .container {
+  height: 100%; }
+html body .navigation .container .menu {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center; }
+html body .navigation .container .menu a {
+  font-family: OpenSans;
+  display: inline-block;
+  text-decoration: none;
+  color: #595f70;
+  font-size: 1em;
+  padding: 15px 10px; }
+html body .navigation .container .menu a:hover {
+  color: #e1ca87; }
+@media (min-width: 751px) and (max-width: 1024px) {
+  html body .navigation .container .menu a {
+    font-size: 12px; } }
+@media (min-width: 100px) and (max-width: 750px) {
+  html body .navigation .container .menu a {
+    font-size: 0.6em; } }
+html body .navigation .container .menu i {
+  display: none;
+  font-size: 4vw;
+  color: #595f70;
+  position: absolute;
+  top: 2vw;
+  right: 4vw;
+  background-color: #FFFFFF; }
+@media (min-width: 100px) and (max-width: 650px) {
+  html body .navigation .container .menu i {
+    display: block; } }
+@media (min-width: 321px) and (max-width: 375px) {
+  html body .navigation .container .menu i {
+    font-size: 5vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .navigation .container .menu i {
+    font-size: 33px;
+    top: 15px;
+    right: 20px; } }
+html body .navigation .container .menu .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  padding: 0 0 2vw;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #FFFFFF; }
+html body .navigation .container .menu .dropdown-menu li {
+  text-align: center;
+  margin: 1vw 0; }
+html body .navigation .container .menu .dropdown-menu li a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.4vw;
+  font-family: OpenSans;
+  color: #595f70; }
+html body .navigation .container .menu .dropdown-menu li a:hover {
+  text-decoration: underline; }
+@media (min-width: 320px) and (max-width: 425px) {
+  html body .navigation .container .menu .dropdown-menu li a {
+    font-size: 3vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .navigation .container .menu .dropdown-menu li a {
+    font-size: 5vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .navigation .container .menu .dropdown-menu li {
+    margin: 2vw 0; } }
+@media (min-width: 100px) and (max-width: 650px) {
+  html body .navigation .container .menu > a {
+    display: none; } }
+@media (min-width: 376px) and (max-width: 650px) {
+  html body .navigation {
+    height: 8vw; } }
+@media (min-width: 321px) and (max-width: 375px) {
+  html body .navigation {
+    height: 12vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .navigation {
+    height: 64px; } }
+
+html body .hero {
+  position: relative;
+  width: 100%;
+  padding: 0 0 15.5vw; }
+html body .hero .back-containerForHero {
+  background: url("../img/bg-banner.png") no-repeat 50% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .hero .back-containerForHero .container .infoForHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 20vw 0 0 14vw;
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3); }
+html body .hero .back-containerForHero .container .infoForHeader h1 {
+  font-family: OpenSans-Light;
+  line-height: 1.3;
+  padding: 0 0 2vw;
+  font-size: 1.8em;
+  color: #595f70; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .hero .back-containerForHero .container .infoForHeader h1 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .hero .back-containerForHero .container .infoForHeader h1 {
+    font-size: 1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero .back-containerForHero .container .infoForHeader h1 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .hero .back-containerForHero .container .infoForHeader h1 {
+    font-size: 1em; } }
+html body .hero .back-containerForHero .container .infoForHeader hr {
+  border: none;
+  height: 0.2vw;
+  margin: 0 0 2vw;
+  width: 8vw;
+  color: #e1ca87;
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero .back-containerForHero .container .infoForHeader hr {
+    height: 0.8vw;
+    width: 30vw; } }
+html body .hero .back-containerForHero .container .infoForHeader p {
+  font-family: OpenSans-Light;
+  margin: 0 0 3.5vw;
+  line-height: 1.3;
+  font-size: 0.9em;
+  color: #595f70; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .hero .back-containerForHero .container .infoForHeader p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .hero .back-containerForHero .container .infoForHeader p {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero .back-containerForHero .container .infoForHeader p {
+    font-size: 0.7em;
+    margin: 0 18vw 3.5vw 0; } }
+html body .hero .back-containerForHero .container .infoForHeader span {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  align-self: flex-start;
+  padding: 1.2vw 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #e1ca87; }
+html body .hero .back-containerForHero .container .infoForHeader span a {
+  font-family: OpenSans-Extrabold;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.2vw 5vw;
+  font-size: 0.9em;
+  color: #595f70; }
+html body .hero .back-containerForHero .container .infoForHeader span a:hover {
+  color: #ffffff; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .hero .back-containerForHero .container .infoForHeader span a {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero .back-containerForHero .container .infoForHeader span a {
+    font-size: 0.8em; } }
+html body .hero .back-containerForHero .container .infoForHeader span:hover {
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 630px) {
+  html body .hero .back-containerForHero .container .infoForHeader {
+    margin: 100px 0 0;
+    width: 65%; } }
+@media (min-width: 100px) and (max-width: 390px) {
+  html body .hero .back-containerForHero .container .infoForHeader {
+    width: 85%; } }
+@media (min-width: 100px) and (max-width: 335px) {
+  html body .hero .back-containerForHero .container .infoForHeader {
+    margin: 55px 0 0; } }
+@media (min-width: 100px) and (max-width: 325px) {
+  html body .hero .back-containerForHero .container .infoForHeader {
+    margin: 45px 0 0; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .hero .back-containerForHero .container .infoForHeader {
+    margin: 80px 0 0;
+    width: 90%; } }
+html body .hero .back-containerForHero .container img {
+  position: absolute;
+  bottom: 9vw;
+  left: 48.95%;
+  width: 2vw;
+  height: 5vw; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero .back-containerForHero .container img {
+    display: none; } }
+html body .hero:before {
+  padding: 34%; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .hero:before {
+    padding: 50%; } }
+
+html body .slider {
+  position: relative;
+  width: 100%;
+  padding: 0 0 15vw; }
+html body .slider .back-containerForSlider {
+  background: url("../img/bg-slider.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .slider .back-containerForSlider .titleOfContainerForSliders {
+  width: -webkit-calc(100% / 3);
+  width: calc(100% / 3);
+  margin: 0 auto; }
+html body .slider .back-containerForSlider .titleOfContainerForSliders h2 {
+  font-family: OpenSans;
+  text-align: center;
+  line-height: 1.3;
+  padding: 9vw 0 2vw;
+  font-size: 1.8em;
+  color: #595f70; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders h2 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders h2 {
+    font-size: 1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders h2 {
+    font-size: 1.5em; } }
+html body .slider .back-containerForSlider .titleOfContainerForSliders hr {
+  border: none;
+  height: 0.1vw;
+  width: 8vw;
+  margin: 0 auto;
+  color: #e1ca87;
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders hr {
+    width: 40vw;
+    height: 0.8vw; } }
+html body .slider .back-containerForSlider .titleOfContainerForSliders p {
+  font-family: OpenSans-Light;
+  margin: 2vw 0 10vw;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  font-size: 0.9em;
+  color: #595f70; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders p {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders p {
+    font-size: 0.8em; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders {
+    width: -webkit-calc(100% / 2.5);
+    width: calc(100% / 2.5); } }
+@media (min-width: 100px) and (max-width: 550px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders {
+    width: -webkit-calc(100% / 2.2);
+    width: calc(100% / 2.2); } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .slider .back-containerForSlider .titleOfContainerForSliders {
+    width: 90%; } }
+html body .slider .back-containerForSlider .bx-wrapper {
+  margin: 0 auto;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: transparent; }
+@media (min-width: 650px) and (max-width: 680px) {
+  html body .slider .back-containerForSlider .bx-wrapper {
+    max-width: 61vw; } }
+html body .slider .back-containerForSlider .responsive {
+  width: 65%;
+  margin: 0 auto; }
+html body .slider .back-containerForSlider .responsive .slick-active {
+  color: #e1ca87; }
+html body .slider .back-containerForSlider .responsive li {
+  color: #595f70; }
+html body .slider .back-containerForSlider .responsive .mPrev {
+  position: absolute;
+  width: 5%;
+  top: 22%;
+  left: -10vw; }
+html body .slider .back-containerForSlider .responsive .mNext {
+  position: absolute;
+  width: 5%;
+  top: 22%;
+  right: -10vw; }
+html body .slider .back-containerForSlider .responsive .containerForArrow {
+  position: relative;
+  width: 100%; }
+html body .slider .back-containerForSlider .responsive .containerForArrow .back-containerForPrev {
+  background: url("../img/slider/prev.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .slider .back-containerForSlider .responsive .containerForArrow .back-containerForNext {
+  background: url("../img/slider/next.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .slider .back-containerForSlider .responsive .containerForArrow:before {
+  padding: 100%; }
+html body .slider .back-containerForSlider .responsive .containerForArrow:hover .back-containerForPrev {
+  background: url("../img/slider/prevHover.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .slider .back-containerForSlider .responsive .containerForArrow:hover .back-containerForNext {
+  background: url("../img/slider/nextHover.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .slider .back-containerForSlider .responsive .slide {
+  margin: 0 1vw;
+  padding: 0 0 2vw; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider {
+  position: relative;
+  width: 100%;
+  margin: 0 0 2vw; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider1 {
+  background: url("../img/slider/1-icon.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider2 {
+  background: url("../img/slider/2-icon.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider3 {
+  background: url("../img/slider/logo.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider4 {
+  background: url("../img/slider/1.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider5 {
+  background: url("../img/slider/2.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider .back-containerForSImgOfSlider6 {
+  background: url("../img/slider/3.png") no-repeat 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .slider .back-containerForSlider .responsive .slide .containerForSImgOfSlider:before {
+  padding: 12%; }
+html body .slider .back-containerForSlider .responsive .slide .what {
+  text-align: center;
+  font-size: 1.2em;
+  color: #595f70;
+  margin: 0 0 1vw;
+  font-family: OpenSans; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .slider .back-containerForSlider .responsive .slide .what {
+    font-size: 1em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .slider .back-containerForSlider .responsive .slide .what {
+    font-size: 0.9em; } }
+html body .slider .back-containerForSlider .responsive .slide .about {
+  font-family: OpenSans-Light;
+  text-align: center;
+  font-size: 0.9em;
+  color: #595f70; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .slider .back-containerForSlider .responsive .slide .about {
+    font-size: 0.7em; } }
+html body .slider:before {
+  padding: 24%; }
+@media (min-width: 100px) and (max-width: 1200px) {
+  html body .slider {
+    padding: 0; }
+  html body .slider:before {
+    padding: 41%; } }
+@media (min-width: 100px) and (max-width: 520px) {
+  html body .slider:before {
+    padding: 45%; } }
+@media (min-width: 100px) and (max-width: 490px) {
+  html body .slider:before {
+    padding: 48%; } }
+@media (min-width: 100px) and (max-width: 410px) {
+  html body .slider:before {
+    padding: 50%; } }
+@media (min-width: 100px) and (max-width: 400px) {
+  html body .slider {
+    height: 110vw; } }
+@media (min-width: 100px) and (max-width: 360px) {
+  html body .slider {
+    height: 120vw; } }
+@media (min-width: 100px) and (max-width: 350px) {
+  html body .slider {
+    height: 135vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .slider {
+    height: 165vw; } }
+
+html body .ladiesWatch {
+  position: relative;
+  width: 100%; }
+html body .ladiesWatch .back-containerForLadiesWatch {
+  background: url("../img/ladiesWatch/1-banner.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end; }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch {
+  width: 30vw;
+  padding: 5vw 5vw 0 0; }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch .rolex {
+  font-family: OpenSans-Light;
+  color: #e1ca87;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 0 1.5vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch .rolex {
+    font-size: 0.9em; } }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch h2 {
+  font-family: OpenSans-Light;
+  margin: 0 0 2vw;
+  text-align: center;
+  font-size: 1.8em;
+  color: #595f70; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch h2 {
+    font-size: 1.1em; } }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch hr {
+  font-family: OpenSans-Light;
+  border: none;
+  background-color: #e1ca87;
+  color: #e1ca87;
+  height: 0.1vw;
+  width: 8vw;
+  margin: 0 auto; }
+html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch .model {
+  font-family: OpenSans-Light;
+  line-height: 1.3;
+  color: #595f70;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 2.5vw 0; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch .model {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch {
+    padding-top: 3vw; } }
+@media (min-width: 100px) and (max-width: 600px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch {
+    width: 240px;
+    padding: 5vw 0 0 0; } }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .ladiesWatch .back-containerForLadiesWatch .container .containerForLadiesWatch .titleOfLadiesWatch {
+    width: 185px; } }
+html body .ladiesWatch:before {
+  padding: 13.5%; }
+@media (min-width: 100px) and (max-width: 1200px) {
+  html body .ladiesWatch:before {
+    padding: 15%; } }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .ladiesWatch:before {
+    padding: 18%; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .ladiesWatch {
+    display: none; } }
+
+html body .characteristicOfLadiesWatch {
+  position: relative;
+  width: 100%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch {
+  background: url("../img/ladiesWatch/bg-watch.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch {
+  width: 72%;
+  margin: 5vw auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch {
+  width: 49%;
+  margin: 0 0 3vw; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch h2 {
+  color: #595f70;
+  font-size: 1.8em;
+  font-family: OpenSans-Light;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch h2 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch h2 {
+    font-size: 1.5em; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch hr {
+  border: none;
+  background-color: #e1ca87;
+  color: #e1ca87;
+  height: 0.1vw;
+  width: 10vw;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch hr {
+    height: 0.6vw;
+    width: 20vw; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch {
+  margin: 0.5vw 0; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .what {
+  display: inline-block;
+  color: #595f70;
+  font-family: OpenSans;
+  font-size: 0.9em; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .what {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .what {
+    font-size: 0.8em; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .about {
+  display: inline-block;
+  color: #595f70;
+  font-size: 0.9em;
+  font-family: OpenSans-Light; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .about {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .containerForCharacteristicOfLadiesWatch .about {
+    font-size: 0.8em; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .buttonForBlockAboutLadiesWatch {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  cursor: pointer; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch .buttonForBlockAboutLadiesWatch img {
+  margin: 0 1vw 0 0;
+  display: inline-block;
+  width: 1.5vw;
+  height: 1.5vw; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch a {
+  text-decoration: none;
+  margin: 1vw 0 0;
+  display: inline-block;
+  color: #595f70;
+  font-family: OpenSans-Extrabold;
+  font-size: 0.9em; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch a:hover {
+  -webkit-text-decoration-style: solid;
+  text-decoration-style: solid;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #595f70;
+  text-decoration-color: #595f70; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch a {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch a {
+    font-size: 0.8em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .infoOfLadiesWatch {
+    width: 100%; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch {
+  margin: 0 0 4vw;
+  position: relative;
+  width: 49%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch .back-containerOfModelOfLadiesWatch {
+  background: url("../img/ladiesWatch/watch.png") no-repeat 70% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch:before {
+  padding: 42%; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfLadiesWatch {
+    width: 100%; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch {
+  margin: 0 0 4vw;
+  position: relative;
+  width: 49%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch .back-containerForImgOfLadiesWatch {
+  background: url("../img/ladiesWatch/ciferbleat.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch:before {
+  padding: 42%; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch {
+    height: 30vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 4vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfLadiesWatch {
+    height: 185px; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch {
+  margin: 0 0 4vw;
+  position: relative;
+  width: 49%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch .back-containerOfModelOfNoLadiesForMenWatch {
+  background: url("../img/MenSWatch/watch.png") no-repeat 70% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch:before {
+  padding: 42%; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .modelOfNoLadiesForMenSWatch {
+    width: 100%; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch {
+  margin: 0 0 4vw;
+  position: relative;
+  width: 49%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch .back-containerForImgOfNoLadiesMenSWatch {
+  background: url("../img/MenSWatch/ciferbleat.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch:before {
+  padding: 42%; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch {
+    margin: 0;
+    height: 30vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 4vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .imgOfNoLadiesForMenSWatch {
+    height: 192px; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch {
+  width: 49%; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice {
+  height: 14%;
+  margin: 0 0 3vw 4vw; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice {
+  -webkit-border-radius: 0.4vw;
+  border-radius: 0.4vw;
+  display: inline-block;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#ffdd00));
+  background: -webkit-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: -o-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: linear-gradient(to top, #ff9600, #ffdd00);
+  padding: 1vw; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .newNumeral {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 1.8em;
+  font-family: OpenSans-Extrabold; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .newNumeral {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 576px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .newNumeral {
+    font-size: 0.9em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .newNumeral {
+    font-size: 5vw; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .currency {
+  display: inline-block;
+  font-family: OpenSans-Extrabold;
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  color: #FFFFFF;
+  font-size: 0.9em; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .currency {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 576px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .currency {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .forNewPrice .currency {
+    font-size: 3vw; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .oldPrice {
+  margin: 1.5vw 0;
+  text-align: center;
+  display: inline-block;
+  text-decoration: line-through;
+  width: 49%;
+  color: #595f70;
+  font-size: 1.1em;
+  font-weight: 900;
+  font-family: OpenSans-Light; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice .oldPrice {
+    font-size: 0.8em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice {
+    height: 13%;
+    margin: 4vw 0 3vw 4vw; } }
+@media (min-width: 100px) and (max-width: 250px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .newPrice {
+    margin: 4vw 0 0 4vw; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .descriptionOfWatch {
+  margin: 0 0 3vw 4vw;
+  color: #595f70;
+  font-family: OpenSans-Light;
+  font-size: 14px;
+  line-height: 1.3; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .descriptionOfWatch {
+    font-size: 11px;
+    margin: 0 0 3vw 4vw;
+    line-height: 1; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .descriptionOfWatch {
+    font-size: 13px;
+    text-align: center;
+    margin: 0 0 10vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .descriptionOfWatch {
+    font-size: 11px;
+    text-align: center;
+    margin: 0 0 10vw; } }
+@media (min-width: 426px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .descriptionOfWatch {
+    margin-top: 11px; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .Men {
+  margin: 0 0 1.5vw 4vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch .Men {
+    margin: 0 0 3.3vw 4vw; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span {
+  padding: 2vw 0;
+  margin: 0 0 0 4vw;
+  width: 65%;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #e1ca87;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-family: OpenSans-Extrabold;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #595f70; }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a:hover {
+  color: #ffffff; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a {
+    font-size: 12px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a {
+    font-size: 17px; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a {
+    font-size: 14px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span a {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span {
+    font-size: 11px; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span:hover {
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch span {
+    padding: 4vw 0;
+    width: 60%;
+    height: 3vw;
+    margin: 0 auto; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch .descriptionOfLadiesWatch {
+    width: 100%; } }
+@media (min-width: 650px) and (max-width: 875px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch {
+    width: 100%; } }
+@media (min-width: 100px) and (max-width: 650px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch .container .flex-containerForInfoOfLadiesWatch {
+    width: 100%; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfLadiesWatch {
+    background: url("../img/ladiesWatch/bg-watch.png") no-repeat 100% 100%;
+    -webkit-background-size: cover;
+    background-size: cover; } }
+html body .characteristicOfLadiesWatch .back-containerForCharacteristicOfNoLadiesForManSWatch {
+  background-color: #ffffff;
+  background: none; }
+html body .characteristicOfLadiesWatch:before {
+  padding: 34%; }
+@media (min-width: 731px) and (max-width: 1200px) {
+  html body .characteristicOfLadiesWatch:before {
+    padding: 46%; } }
+@media (min-width: 100px) and (max-width: 940px) {
+  html body .characteristicOfLadiesWatch:before {
+    padding: 50%; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .characteristicOfLadiesWatch:before {
+    padding: 42%; } }
+@media (min-width: 100px) and (max-width: 650px) {
+  html body .characteristicOfLadiesWatch:before {
+    padding: 44%; } }
+@media (min-width: 100px) and (max-width: 610px) {
+  html body .characteristicOfLadiesWatch:before {
+    padding: 48%; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .characteristicOfLadiesWatch {
+    height: 620px; } }
+@media (min-width: 100px) and (max-width: 650px) {
+  html body .characteristicOfLadiesWatch {
+    height: 570px; } }
+@media (min-width: 100px) and (max-width: 576px) {
+  html body .characteristicOfLadiesWatch {
+    height: 610px; } }
+@media (min-width: 100px) and (max-width: 520px) {
+  html body .characteristicOfLadiesWatch {
+    height: 676px; } }
+@media (min-width: 100px) and (max-width: 500px) {
+  html body .characteristicOfLadiesWatch {
+    height: 695px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1211px; } }
+@media (min-width: 100px) and (max-width: 450px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1209px; } }
+@media (min-width: 100px) and (max-width: 420px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1185px; } }
+@media (min-width: 100px) and (max-width: 390px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1167px; } }
+@media (min-width: 100px) and (max-width: 370px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1174px; } }
+@media (min-width: 100px) and (max-width: 350px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1183px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .characteristicOfLadiesWatch {
+    height: 1100px; } }
+html body .fancybox-slide--video .fancybox-content {
+  width: 800px;
+  height: 600px;
+  max-width: 80%;
+  max-height: 80%; }
+
+html body .timerAndForm .containerForTimerAndForm {
+  position: relative;
+  width: 100%; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm {
+  background: url("../img/timerAndForm/bg1.png") no-repeat 48% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container {
+  height: 100%; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+  position: relative;
+  width: -webkit-calc(100% / 2.2);
+  width: calc(100% / 2.2);
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  height: 32vw;
+  padding: 4vw 5vw; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm h2 {
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  font-family: OpenSans-Light;
+  margin: 0 0 2vw; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm h2 {
+    font-size: 1.4em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm h2 {
+    font-size: 1.2em; } }
+@media (min-width: 100px) and (max-width: 550px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm h2 {
+    font-size: 0.9em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm h2 {
+    font-size: 1.5em; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm hr {
+  border: none;
+  height: 0.1vw;
+  width: 10vw;
+  margin: 0 auto;
+  color: #ffdd00;
+  background-color: #ffdd00; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .titleOfCardForTimerAndForm hr {
+    height: 1px; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .endTimer {
+  color: #ffffff;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 15px 0;
+  font-family: OpenSans-Light; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .endTimer {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .endTimer {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .endTimer {
+    font-size: 0.8em; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .containerForTimerF {
+  position: relative;
+  width: 100%; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time {
+  width: 64%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time {
+    width: 44%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time {
+    width: 38%; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time {
+    width: 100%; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+  list-style: none;
+  color: white;
+  font-family: Oswald-Medium;
+  line-height: 1.4; }
+@media (min-width: 100px) and (max-width: 600px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+    padding: 0 0 0 0.5vw;
+    line-height: 1.2; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+    padding: 0 0 0 1vw;
+    line-height: 1.5; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+    padding: 0 0 0 0.3vw;
+    line-height: 1.5; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+    padding: 0 0 0 0;
+    line-height: 1.5; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li {
+    padding: 0 0 0 0;
+    line-height: 1.5; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time li:nth-child(2n+2) {
+  margin-right: 6px; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-bg {
+  background: url("../img/timerAndForm/splitter.png") no-repeat 100% 100%;
+  -webkit-background-size: contain;
+  background-size: contain;
+  font-size: 3vw !important;
+  width: 4vw !important;
+  height: 100% !important;
+  color: #000 !important;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-bg {
+    font-size: 3vw !important;
+    width: 5vw !important; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-bg {
+    font-size: 20px !important;
+    width: 5vw !important;
+    height: 8vw !important; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-bg-pad li {
+  padding-right: 20px; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name {
+  /*overflow: hidden;*/
+  height: auto;
+  width: 64%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  color: #ffffff;
+  font-family: OpenSans-Light;
+  font-size: 1.9em;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name {
+    width: 44%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name {
+    width: 38%; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name {
+    width: 64%; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li {
+  list-style: none;
+  font-size: 15px; }
+@media (min-width: 426px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li {
+    font-size: 9px; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li {
+    font-size: 7px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li {
+    font-size: 9px; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li:last-child {
+  position: relative;
+  right: -2px; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm .time-name li:last-child {
+    right: 2px; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form {
+  width: 100%;
+  margin: 2vw auto 0; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group {
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input {
+  width: 100%; }
+@media (min-width: 100px) and (max-width: 568px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input {
+    padding: 0 0 0 2%;
+    width: 98%; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+  height: 2.7vw;
+  border: none;
+  margin: 0 0 1vw;
+  font-size: 0.8em;
+  font-family: Oswald-Medium;
+  color: #ffffff;
+  border-bottom: 2px solid #ffdd00;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input:focus, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select:focus {
+  text-decoration: none;
+  border: none;
+  border-bottom: 2px solid #ff9600;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+    font-size: 0.5em; } }
+@media (min-width: 100px) and (max-width: 568px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+    height: 23px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group input, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+    font-size: 2.8vw; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select {
+  width: 100%; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select option {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #5c5c5c;
+  font-size: 1.2em;
+  font-family: Oswald-Medium;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select option:hover, html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group select option:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #5c5c5c;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group ::-webkit-input-placeholder {
+  color: #ffffff; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group ::-moz-placeholder {
+  color: #ffffff; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group :-moz-placeholder {
+  color: #ffffff; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .form-group :-ms-input-placeholder {
+  color: #ffffff; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .model {
+  margin: 0 0 2vw; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+  color: #ffffff;
+  font-family: OpenSans-Extrabold;
+  font-size: 0.9em;
+  width: 48%;
+  height: 50px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#ffdd00));
+  background: -webkit-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: -o-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: linear-gradient(to top, #ff9600, #ffdd00);
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none; }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffdd00), to(#ff9600));
+  background: -webkit-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: -o-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: linear-gradient(to top, #ffdd00, #ff9600);
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none; }
+@media (min-width: 681px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    font-size: 9px; } }
+@media (min-width: 100px) and (max-width: 600px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    font-size: 8px; } }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    height: 5vw;
+    width: -webkit-calc(100% / 1.9);
+    width: calc(100% / 1.9); } }
+@media (min-width: 100px) and (max-width: 485px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    width: -webkit-calc(100% / 1.8);
+    width: calc(100% / 1.8); } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    width: -webkit-calc(100% / 2.2);
+    width: calc(100% / 2.2);
+    height: 6vw;
+    font-size: 2.2vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form .button button {
+    height: 30px;
+    width: 140px;
+    margin: 5vw 0 0;
+    font-size: 10px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm form {
+    margin-top: 4vw; } }
+@media (min-width: 100px) and (max-width: 1024px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+    padding: 0 5vw 4vw; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+    height: 36vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+    width: 100%;
+    height: 56vw; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+    height: 65vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm .container .tableForTimerAmdForm .cardForTimerAndForm {
+    height: 76vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm {
+    background: url("../img/timerAndForm/mb1.png") no-repeat 48% 100%;
+    -webkit-background-size: cover;
+    background-size: cover; } }
+html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm2 {
+  background: url("../img/timerAndForm/bg2.png") no-repeat 48% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm .back-containerForTimerAndForm2 {
+    background: url("../img/timerAndForm/mb2.png") no-repeat 48% 100%;
+    -webkit-background-size: cover;
+    background-size: cover; } }
+html body .timerAndForm .containerForTimerAndForm:before {
+  padding: 28%; }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .timerAndForm .containerForTimerAndForm:before {
+    padding: 32%; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .timerAndForm .containerForTimerAndForm {
+    height: 80vw; }
+  html body .timerAndForm .containerForTimerAndForm:before {
+    padding: 40%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .timerAndForm .containerForTimerAndForm {
+    height: 90vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .timerAndForm .containerForTimerAndForm {
+    height: 100vw; } }
+
+html body .MenSWatch {
+  position: relative;
+  width: 100%; }
+html body .MenSWatch .back-containerForNoLadiesForMenSWatch {
+  background: url("../img/MenSWatch/1-banner.png") no-repeat 50% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+@media (min-width: 100px) and (max-width: 560px) {
+  html body .MenSWatch .back-containerForNoLadiesForMenSWatch {
+    background: url("../img/MenSWatch/1-banner.png") no-repeat 40% 100%;
+    -webkit-background-size: cover;
+    background-size: cover; } }
+html body .MenSWatch .back-containerForNoLadiesForMenSWatch .container {
+  height: 100%; }
+html body .MenSWatch:before {
+  padding: 16%; }
+@media (min-width: 100px) and (max-width: 560px) {
+  html body .MenSWatch:before {
+    padding: 21%; } }
+
+html body .history {
+  width: 100%; }
+html body .history .containerForHistory {
+  position: relative;
+  width: 100%; }
+html body .history .containerForHistory .back-containerForHistory {
+  background: url("../img/history/parallax-bg.png") fixed no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  width: -webkit-calc(100% / 1.6);
+  width: calc(100% / 1.6);
+  padding: 2vw;
+  background-color: #ffffff; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory {
+  border: 2px solid #e1ca87;
+  padding: 4vw 7vw; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+  font-family: OpenSans-Extrabold;
+  font-size: 1.5em;
+  color: #595f70;
+  text-align: center;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+    font-size: 1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+    font-size: 1.5em; } }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+  font-family: OpenSans-Light;
+  font-size: 0.9em;
+  line-height: 1.3;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+    font-size: 0.8em; } }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+  width: 36%;
+  height: 52px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 2vw 0 0;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#ffdd00));
+  background: -webkit-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: -o-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: linear-gradient(to top, #ff9600, #ffdd00); }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffdd00), to(#ff9600));
+  background: -webkit-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: -o-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: linear-gradient(to top, #ffdd00, #ff9600);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none;
+  border: none; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:focus, html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:visited {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-decoration: none; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e1ca87;
+  font-family: OpenSans-Extrabold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9600), to(#ffdd00));
+  background: -webkit-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: -o-linear-gradient(bottom, #ff9600, #ffdd00);
+  background: linear-gradient(to top, #ff9600, #ffdd00);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffdd00), to(#ff9600));
+  background: -webkit-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: -o-linear-gradient(bottom, #ffdd00, #ff9600);
+  background: linear-gradient(to top, #ffdd00, #ff9600);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  text-decoration: none; }
+html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:focus, html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:visited {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  text-decoration: none; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 9px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 16px; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 13px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 10px; } }
+@media (min-width: 100px) and (max-width: 830px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    width: 43%;
+    height: 5vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    width: 52%;
+    height: 9vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    height: 30px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory {
+    border: none; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory .back-containerForHistory .container .containerForCardOfHistory .cardForHistory {
+    width: 100%;
+    padding: 8vw 2vw; } }
+html body .history .containerForHistory:before {
+  padding: 38%; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .history .containerForHistory:before {
+    padding: 50%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .history .containerForHistory {
+    height: 160vw; } }
+
+html body .historyInBlackColor .containerHistoryInBlackColor {
+  position: relative;
+  width: 100%; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor {
+  background: url("../img/blackHisotry/bg-cta.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  width: -webkit-calc(100% / 1.6);
+  width: calc(100% / 1.6);
+  padding: 2vw;
+  background-color: transparent; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory {
+  padding: 4vw 7vw; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+  font-family: OpenSans-Extrabold;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+    font-size: 1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory h2 {
+    font-size: 1.5em; } }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+  font-family: OpenSans-Light;
+  font-size: 0.9em;
+  color: #ffffff;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory p {
+    font-size: 0.8em; } }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 38%;
+  height: 4vw;
+  margin: 2vw 0 0;
+  text-decoration: none;
+  background-color: transparent; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:hover {
+  background-color: #e1ca87;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid #e1ca87; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:focus, html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a:visited {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #e1ca87;
+  text-decoration: none; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e1ca87;
+  font-family: OpenSans-Extrabold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:hover {
+  background-color: #e1ca87;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #e1ca87;
+  text-decoration: none; }
+html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:focus, html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button:visited {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #e1ca87;
+  outline: none;
+  text-decoration: none; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 11px; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 9px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 16px; } }
+@media (min-width: 100px) and (max-width: 420px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 12px; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a button {
+    font-size: 10px; } }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    width: 45%; } }
+@media (min-width: 100px) and (max-width: 560px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    height: 5vw; } }
+@media (min-width: 100px) and (max-width: 520px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    height: 6vw;
+    width: 50%; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    width: 55%;
+    height: 9vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory .tableInCardForHistory .button a {
+    width: 52%;
+    height: 30px; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor .container .containerForCardOfHistory .cardForHistory {
+    width: 100%;
+    padding: 8vw 2vw; } }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor .back-containerHistoryInBlackColor {
+    background: url("../img/blackHisotry/bg-cta.png") no-repeat 50% 100%;
+    -webkit-background-size: cover;
+    background-size: cover; } }
+html body .historyInBlackColor .containerHistoryInBlackColor:before {
+  padding: 13.5%; }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor:before {
+    padding: 16%; } }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor:before {
+    padding: 19%; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor:before {
+    padding: 38%; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .historyInBlackColor .containerHistoryInBlackColor {
+    height: 315px; } }
+
+html body .delivery {
+  padding: 6vw 0 0; }
+html body .delivery .container .titleOfDelivery {
+  width: -webkit-calc(100% / 1.8);
+  width: calc(100% / 1.8);
+  margin: 0 auto; }
+html body .delivery .container .titleOfDelivery h2 {
+  font-family: OpenSans-Light;
+  line-height: 1.3;
+  padding: 0 0 2vw;
+  font-size: 1.8em;
+  color: #595f70;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .delivery .container .titleOfDelivery h2 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .titleOfDelivery h2 {
+    font-size: 1.5em; } }
+html body .delivery .container .titleOfDelivery hr {
+  border: none;
+  height: 0.2vw;
+  margin: 0 auto;
+  width: 8vw;
+  color: #e1ca87;
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .titleOfDelivery hr {
+    height: 0.8vw;
+    width: 40vw; } }
+html body .delivery .container .titleOfDelivery p {
+  font-family: OpenSans-Light;
+  margin: 2vw 0 4vw;
+  line-height: 1.3;
+  font-size: 0.9em;
+  color: #595f70;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .delivery .container .titleOfDelivery p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .titleOfDelivery p {
+    font-size: 0.8em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .titleOfDelivery {
+    width: 100%; } }
+html body .delivery .container .containerForImgOfParagraphOfDelivery {
+  width: -webkit-calc(100% / 1.4);
+  width: calc(100% / 1.4);
+  margin: 0 auto; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs {
+  position: relative;
+  width: 100%;
+  margin: 0 0 0.5vw; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForFirstParagraph {
+  background: url("../img/delivery/11.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForSecondParagraph {
+  background: url("../img/delivery/22.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForThirdParagraph {
+  background: url("../img/delivery/33.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForFourthParagraph {
+  background: url("../img/delivery/44.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 auto; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  position: relative;
+  width: 33%;
+  margin: 0 1vw 0 0; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery1 {
+  background: url("../img/delivery/1icon.png") no-repeat 100% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery2 {
+  background: url("../img/delivery/2icon.png") no-repeat 100% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery3 {
+  background: url("../img/delivery/3icon.png") no-repeat 100% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery .back-containerImgForDelivery4 {
+  background: url("../img/delivery/4icon.png") no-repeat 100% 100%;
+  -webkit-background-size: contain;
+  background-size: contain; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery .imgForDelivery:before {
+  padding: 40%; }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery p {
+  font-family: OpenSans-Extrabold;
+  color: #ffffff;
+  font-size: 0.8em;
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  align-self: center;
+  width: 66%;
+  margin: 0 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery p {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 600px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery p {
+    font-size: 0.5em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs .back-containerForParagraph .descriptionForParagraphOfDelivery p {
+    font-size: 0.7em; } }
+html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs:before {
+  padding: 6%; }
+@media (min-width: 100px) and (max-width: 530px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs:before {
+    padding: 8%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery .paragraphs:before {
+    padding: 12%; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .delivery .container .containerForImgOfParagraphOfDelivery {
+    width: 100%; } }
+
+body {
+  overflow-x: hidden; }
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 0.8vw;
+  height: 10px; }
+
+/* Track */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e1ca87;
+  height: 10vw; }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #e1ca87; }
+
+html body .reviews {
+  padding: 6vw 0 0;
+  height: 50vw; }
+html body .reviews .containerForReviews .container {
+  width: 70%; }
+html body .reviews .containerForReviews .container .titleOfReviews {
+  width: -webkit-calc(100% / 1.8);
+  width: calc(100% / 1.8);
+  margin: 0 auto; }
+html body .reviews .containerForReviews .container .titleOfReviews h2 {
+  font-family: OpenSans-Light;
+  line-height: 1.3;
+  padding: 0 0 2vw;
+  font-size: 1.8em;
+  color: #595f70;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .reviews .containerForReviews .container .titleOfReviews h2 {
+    font-size: 1.1em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .reviews .containerForReviews .container .titleOfReviews h2 {
+    font-size: 1.5em; } }
+html body .reviews .containerForReviews .container .titleOfReviews hr {
+  border: none;
+  height: 0.2vw;
+  margin: 0 auto;
+  width: 8vw;
+  color: #e1ca87;
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .reviews .containerForReviews .container .titleOfReviews hr {
+    height: 0.8vw;
+    width: 40vw; } }
+html body .reviews .containerForReviews .container .titleOfReviews p {
+  font-family: OpenSans-Light;
+  margin: 2vw 0 4vw;
+  line-height: 1.3;
+  font-size: 0.9em;
+  color: #595f70;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body .reviews .containerForReviews .container .titleOfReviews p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .reviews .containerForReviews .container .titleOfReviews p {
+    font-size: 0.8em; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .reviews .containerForReviews .container .titleOfReviews p {
+    margin: 2vw 0 8vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .reviews .containerForReviews .container .titleOfReviews {
+    width: 100%; } }
+html body .reviews .containerForReviews .container .fade {
+  -webkit-box-shadow: 0 0 1vw rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.28);
+  background-color: #FFFFFF;
+  width: -webkit-calc(100% / 2.3);
+  width: calc(100% / 2.3);
+  margin: 0 auto; }
+html body .reviews .containerForReviews .container .fade .mPrev {
+  position: absolute;
+  width: 5%;
+  top: 40%;
+  left: -10vw; }
+html body .reviews .containerForReviews .container .fade .mNext {
+  position: absolute;
+  width: 5%;
+  top: 40%;
+  right: -10vw; }
+html body .reviews .containerForReviews .container .fade .containerForArrow {
+  position: relative;
+  width: 100%; }
+html body .reviews .containerForReviews .container .fade .containerForArrow .back-containerForPrev {
+  background: url("../img/slider/prev.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .reviews .containerForReviews .container .fade .containerForArrow .back-containerForNext {
+  background: url("../img/slider/next.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .reviews .containerForReviews .container .fade .containerForArrow:before {
+  padding: 97%; }
+html body .reviews .containerForReviews .container .fade .containerForArrow:hover .back-containerForPrev {
+  background: url("../img/slider/prevHover.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .reviews .containerForReviews .container .fade .containerForArrow:hover .back-containerForNext {
+  background: url("../img/slider/nextHover.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .reviews .containerForReviews .container .fade .slick-dots li button:before {
+  color: #e1ca87; }
+html body .reviews .containerForReviews .container .fade ul {
+  bottom: -5vw; }
+@media (min-width: 100px) and (max-width: 430px) {
+  html body .reviews .containerForReviews .container .fade ul {
+    bottom: -10vw; } }
+html body .reviews .containerForReviews .container .fade .cardOFReviews {
+  padding: 3vw 2vw; }
+html body .reviews .containerForReviews .container .fade .cardOFReviews img {
+  width: 8vw;
+  height: 8vw;
+  margin: 0 auto 2vw; }
+html body .reviews .containerForReviews .container .fade .cardOFReviews blockquote {
+  color: #000000;
+  font-family: OpenSans-Light;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.3;
+  margin: 0 0 2vw; }
+@media (min-width: 100px) and (max-width: 576px) {
+  html body .reviews .containerForReviews .container .fade .cardOFReviews blockquote {
+    font-size: 0.7em; } }
+html body .reviews .containerForReviews .container .fade .cardOFReviews p {
+  text-align: center;
+  color: #595f70;
+  font-size: 0.9em;
+  font-family: OpenSans-Extrabold; }
+@media (min-width: 100px) and (max-width: 576px) {
+  html body .reviews .containerForReviews .container .fade .cardOFReviews p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .reviews .containerForReviews .container .fade .cardOFReviews {
+    left: 13%; } }
+@media (min-width: 100px) and (max-width: 680px) {
+  html body .reviews .containerForReviews .container .fade {
+    width: 75%; } }
+@media (min-width: 100px) and (max-width: 375px) {
+  html body .reviews .containerForReviews .container .fade {
+    width: 100%; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  html body .reviews {
+    height: 62vw; } }
+@media (min-width: 661px) and (max-width: 768px) {
+  html body .reviews {
+    height: 75vw; } }
+@media (min-width: 100px) and (max-width: 660px) {
+  html body .reviews {
+    height: 70vw; } }
+@media (min-width: 100px) and (max-width: 550px) {
+  html body .reviews {
+    padding: 15vw 0 0;
+    height: 68vw; } }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .reviews {
+    height: 75vw; } }
+@media (min-width: 100px) and (max-width: 430px) {
+  html body .reviews {
+    height: 90vw; } }
+@media (min-width: 100px) and (max-width: 390px) {
+  html body .reviews {
+    height: 105vw; } }
+@media (min-width: 100px) and (max-width: 350px) {
+  html body .reviews {
+    height: 115vw; } }
+@media (min-width: 100px) and (max-width: 330px) {
+  html body .reviews {
+    height: 130vw; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body .reviews {
+    height: 435px; } }
+
+html body footer {
+  width: 100%;
+  padding: 1.5vw 0;
+  background-color: #000000; }
+html body footer .container {
+  height: 100%; }
+html body footer .container .containerForLogo {
+  height: 100%;
+  width: 100%; }
+html body footer .container .containerForLogo .info {
+  width: 58%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+html body footer .container .containerForLogo .info a {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #ffffff;
+  font-family: OpenSans-Light;
+  font-size: 0.8em; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body footer .container .containerForLogo .info a {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 568px) {
+  html body footer .container .containerForLogo .info a {
+    margin: 0 2vw 0 0;
+    text-align: center; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body footer .container .containerForLogo .info a {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body footer .container .containerForLogo .info a {
+    width: 100%;
+    margin: 0 0 1.2vw 0; } }
+html body footer .container .containerForLogo .info p {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  color: #ffffff;
+  font-family: OpenSans-Light;
+  font-size: 0.8em; }
+@media (min-width: 100px) and (max-width: 768px) {
+  html body footer .container .containerForLogo .info p {
+    font-size: 0.7em; } }
+@media (min-width: 100px) and (max-width: 568px) {
+  html body footer .container .containerForLogo .info p {
+    text-align: center; } }
+@media (min-width: 100px) and (max-width: 320px) {
+  html body footer .container .containerForLogo .info p {
+    font-size: 0.6em; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body footer .container .containerForLogo .info p {
+    width: 100%;
+    margin: 1.2vw 0 0 0; } }
+@media (min-width: 100px) and (max-width: 568px) {
+  html body footer .container .containerForLogo .info {
+    width: 66%; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body footer .container .containerForLogo .info {
+    width: 60%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+@media (min-width: 100px) and (max-width: 425px) {
+  html body footer .container .containerForLogo {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; } }
+
+html {
+  position: relative; }
+html body .hiddenContainerForForm {
+  width: 60%;
+  padding: 4vw 10%;
+  background-color: #ffffff; }
+html body .hiddenContainerForForm .containerForForm .titleForForm {
+  width: 100%;
+  margin: 0 auto 3vw; }
+html body .hiddenContainerForForm .containerForForm .titleForForm h2 {
+  font-family: OpenSans-Light;
+  line-height: 1.3;
+  padding: 0 0 2vw;
+  font-size: 3vw;
+  color: #595f70;
+  text-align: center; }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm .containerForForm .titleForForm h2 {
+    font-size: 5vw; } }
+html body .hiddenContainerForForm .containerForForm .titleForForm hr {
+  border: none;
+  height: 0.2vw;
+  margin: 0 auto;
+  width: 8vw;
+  color: #e1ca87;
+  background-color: #e1ca87; }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm .containerForForm .titleForForm hr {
+    width: 30vw;
+    height: 0.8vw; } }
+html body .hiddenContainerForForm .containerForForm .formBuy {
+  height: 100%; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group {
+  /* Firefox 19+ */
+  /* Firefox 18- */ }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group input, html body .hiddenContainerForForm .containerForForm .formBuy .form-group select {
+  width: 100%;
+  height: 3.2vw;
+  border: none;
+  margin: 0 0 1vw;
+  font-size: 1.5vw;
+  font-family: Oswald-Medium;
+  color: #5c5c5c;
+  border-bottom: 2px solid #595f70;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group input:focus, html body .hiddenContainerForForm .containerForForm .formBuy .form-group select:focus {
+  text-decoration: none;
+  border: none;
+  border-bottom: 2px solid #e1ca87;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm .containerForForm .formBuy .form-group input, html body .hiddenContainerForForm .containerForForm .formBuy .form-group select {
+    height: 8vw;
+    font-size: 2.5vw; } }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group select option {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #5c5c5c;
+  font-size: 1.5vw;
+  font-family: Oswald-Medium;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group select option:hover, html body .hiddenContainerForForm .containerForForm .formBuy .form-group select option:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: #5c5c5c;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer; }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm .containerForForm .formBuy .form-group select {
+    height: 8vw;
+    font-size: 2.5vw; } }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group ::-webkit-input-placeholder {
+  color: #5c5c5c; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group ::-moz-placeholder {
+  color: #5c5c5c; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group :-moz-placeholder {
+  color: #5c5c5c; }
+html body .hiddenContainerForForm .containerForForm .formBuy .form-group :-ms-input-placeholder {
+  color: #5c5c5c; }
+html body .hiddenContainerForForm .containerForForm .formBuy .button3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+html body .hiddenContainerForForm .containerForForm .formBuy .button3 button {
+  color: #595f70;
+  font-family: OpenSans-Extrabold;
+  font-size: 1.1vw;
+  width: -webkit-calc(100% / 2);
+  width: calc(100% / 2);
+  height: 4vw;
+  background-color: transparent;
+  margin: 5vw 0 1vw;
+  border: 1px solid #e1ca87;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none; }
+html body .hiddenContainerForForm .containerForForm .formBuy .button3 button:hover {
+  background-color: #e1ca87;
+  border: 1px solid #e1ca87;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  text-decoration: none; }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm .containerForForm .formBuy .button3 button {
+    height: 9vw;
+    font-size: 2.1vw; } }
+@media (min-width: 100px) and (max-width: 475px) {
+  html body .hiddenContainerForForm {
+    width: 90%; } }
+html body a:focus {
+  text-decoration: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  outline: none; }
+
+html body .ladiesWatchForMbVersion {
+  display: none;
+  background-color: #e7e7e7; }
+html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion {
+  position: relative;
+  width: 100%; }
+html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion .back-containerLadiesWatchForMbVersion {
+  background: url("../img/ladiesWatch/LadBannerForMb.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion .back-containerMenSWatchForMbVersion {
+  background: url("../img/MenSWatch/bnMbMenS.png") no-repeat 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+html body .ladiesWatchForMbVersion .containerLadiesWatchForMbVersion:before {
+  padding: 30%; }
+@media (min-width: 100px) and (max-width: 480px) {
+  html body .ladiesWatchForMbVersion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; } }
+html body .ladiesWatchForMbVersion .containerForInfoOfLadiesWatchOfMbV .titleOfLadiesWatch {
+  width: 90%;
+  margin: 0 auto; }
+html body .ladiesWatchForMbVersion .containerForInfoOfLadiesWatchOfMbV .titleOfLadiesWatch .rolex {
+  font-family: OpenSans-Light;
+  color: #e1ca87;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 12vw 0 2.5vw; }
+html body .ladiesWatchForMbVersion .containerForInfoOfLadiesWatchOfMbV .titleOfLadiesWatch h2 {
+  font-family: OpenSans-Light;
+  margin: 4.5vw 0;
+  text-align: center;
+  font-size: 1.5em;
+  color: #595f70; }
+html body .ladiesWatchForMbVersion .containerForInfoOfLadiesWatchOfMbV .titleOfLadiesWatch hr {
+  font-family: OpenSans-Light;
+  border: none;
+  background-color: #e1ca87;
+  color: #e1ca87;
+  height: 0.6vw;
+  width: 35%;
+  margin: 0 auto; }
+html body .ladiesWatchForMbVersion .containerForInfoOfLadiesWatchOfMbV .titleOfLadiesWatch .model {
+  font-family: OpenSans-Light;
+  line-height: 1.6;
+  color: #595f70;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 4.5vw 0 12vw; }
+
+/*# sourceMappingURL=style.css.map */

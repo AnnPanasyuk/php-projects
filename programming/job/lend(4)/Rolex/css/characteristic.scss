@@ -1,0 +1,481 @@
+html {
+  body {
+    .characteristicOfLadiesWatch {
+      position: relative;
+      width: 100%;
+      .back-containerForCharacteristicOfLadiesWatch {
+        @extend %back-container;
+        background: url("../img/ladiesWatch/bg-watch.png") no-repeat 100% 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        .container {
+          .flex-containerForInfoOfLadiesWatch {
+            width: 72%;
+            margin: 5vw auto 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -ms-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            .infoOfLadiesWatch{
+              width: 49%;
+              margin: 0 0 3vw;
+              h2 {
+                color: $colorS;
+                font-size: 1.8em;
+                font-family: OpenSans-Light;
+                margin: 0 0 2vw;
+                @media (min-width: 100px) and (max-width: 768px) {
+                  font-size: 1.1em;
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  font-size: 1.5em;
+                }
+              }
+              hr {
+                border: none;
+                background-color: $gold;
+                color: $gold;
+                height: 0.1vw;
+                width: 10vw;
+                margin: 0 0 2vw;
+                @media (min-width: 100px) and (max-width: 480px) {
+                  height: 0.6vw;
+                  width: 20vw;
+                }
+              }
+              .containerForCharacteristicOfLadiesWatch {
+                margin: 0.5vw 0;
+                .what {
+                  display: inline-block;
+                  color: $colorS;
+                  font-family: OpenSans;
+                  font-size: 0.9em;
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    font-size: 11px;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 0.8em;
+                  }
+                }
+                .about {
+                  display: inline-block;
+                  color: $colorS;
+                  font-size: 0.9em;
+                  font-family: OpenSans-Light;
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    font-size: 11px;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 0.8em;
+                  }
+                }
+              }
+              .buttonForBlockAboutLadiesWatch {
+                width: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                -webkit-flex-direction: row;
+                flex-direction: row;
+                -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                -webkit-justify-content: flex-start;
+                justify-content: flex-start;
+                -ms-flex-wrap: nowrap;
+                -webkit-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                cursor: pointer;
+                img {
+                  margin: 0 1vw 0 0;
+                  display: inline-block;
+                  width: 1.5vw;
+                  height: 1.5vw;
+                }
+              }
+              a {
+                text-decoration: none;
+                margin: 1vw 0 0;
+                display: inline-block;
+                color: $colorS;
+                font-family: OpenSans-Extrabold;
+                font-size: 0.9em;
+                &:hover {
+                  -webkit-text-decoration-style: solid;
+                  text-decoration-style: solid;
+                  text-decoration: underline;
+                  -webkit-text-decoration-color: $colorS;
+                  text-decoration-color: $colorS;
+                }
+                @media (min-width: 100px) and (max-width: 768px) {
+                  font-size: 0.7em;
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  font-size: 0.8em;
+                }
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+              }
+            }
+            .modelOfLadiesWatch {
+              margin: 0 0 4vw;
+              position: relative;
+              width: 49%;
+              .back-containerOfModelOfLadiesWatch {
+                @extend %back-container;
+                background: url("../img/ladiesWatch/watch.png") no-repeat 70% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              &:before {
+                @extend %forBefore;
+                padding: 42%;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+              }
+            }
+            .imgOfLadiesWatch {
+              margin: 0 0 4vw;
+              position: relative;
+              width: 49%;
+              .back-containerForImgOfLadiesWatch {
+                @extend %back-container;
+                background: url("../img/ladiesWatch/ciferbleat.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              &:before {
+                @extend %forBefore;
+                padding: 42%;
+              }
+              @media (min-width: 100px) and (max-width: 768px) {
+                height: 30vw;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+                height: 60vw;
+                margin-bottom: 4vw;
+              }
+              @media (min-width: 100px) and (max-width: 320px) {
+                height: 185px;
+              }
+            }
+
+            .modelOfNoLadiesForMenSWatch {
+              margin: 0 0 4vw;
+              position: relative;
+              width: 49%;
+              .back-containerOfModelOfNoLadiesForMenWatch {
+                @extend %back-container;
+                background: url("../img/MenSWatch/watch.png") no-repeat 70% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              &:before {
+                @extend %forBefore;
+                padding: 42%;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+              }
+            }
+            .imgOfNoLadiesForMenSWatch {
+              margin: 0 0 4vw;
+              position: relative;
+              width: 49%;
+              .back-containerForImgOfNoLadiesMenSWatch {
+                @extend %back-container;
+                background: url("../img/MenSWatch/ciferbleat.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              &:before {
+                @extend %forBefore;
+                padding: 42%;
+              }
+              @media (min-width: 100px) and (max-width: 768px) {
+                margin: 0;
+                height: 30vw;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+                height: 60vw;
+                margin-bottom: 4vw;
+              }
+              @media (min-width: 100px) and (max-width: 320px) {
+                height: 192px;
+              }
+            }
+
+            .descriptionOfLadiesWatch {
+              width: 49%;
+              .newPrice {
+                height: 14%;
+                margin: 0 0 3vw 4vw;
+                .forNewPrice {
+                  -webkit-border-radius: 0.4vw;
+                  border-radius: 0.4vw;
+                  display: inline-block;
+                  background: -webkit-gradient(linear, left bottom, left top, from($orange), to($yellow));
+                  background: -webkit-linear-gradient(bottom, $orange, $yellow);
+                  background: -o-linear-gradient(bottom, $orange, $yellow);
+                  background: linear-gradient(to top, $orange, $yellow);
+                  padding: 1vw;
+                  .newNumeral {
+                    display: inline-block;
+                    color: #FFFFFF;
+                    font-size: 1.8em;
+                    font-family: OpenSans-Extrabold;
+                    @media (min-width: 100px) and (max-width: 768px) {
+                      font-size: 1.1em;
+                    }
+                    @media (min-width: 100px) and (max-width: 576px) {
+                      font-size: 0.9em;
+                    }
+                    @media (min-width: 100px) and (max-width: 480px) {
+                      font-size: 5vw;
+                    }
+                  }
+                  .currency {
+                    display: inline-block;
+                    font-family: OpenSans-Extrabold;
+                    -ms-flex-item-align: center;
+                    -webkit-align-self: center;
+                    align-self: center;
+                    color: #FFFFFF;
+                    font-size: 0.9em;
+                    @media (min-width: 100px) and (max-width: 768px) {
+                      font-size: 0.7em;
+                    }
+                    @media (min-width: 100px) and (max-width: 576px) {
+                      font-size: 0.6em;
+                    }
+                    @media (min-width: 100px) and (max-width: 480px) {
+                      font-size: 3vw;
+                    }
+                  }
+                }
+                .oldPrice {
+                  margin: 1.5vw 0;
+                  text-align: center;
+                  display: inline-block;
+                  text-decoration: line-through;
+                  width: 49%;
+                  color: $colorS;
+                  font-size: 1.1em;
+                  font-weight: 900;
+                  font-family: OpenSans-Light;
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    font-size: 0.8em;
+                  }
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  height: 13%;
+                  margin: 4vw 0 3vw 4vw;
+                }
+                @media (min-width: 100px) and (max-width: 250px) {
+                  margin: 4vw 0 0 4vw;
+                }
+              }
+              .descriptionOfWatch {
+                margin: 0 0 3vw 4vw;
+                color: $colorS;
+                font-family: OpenSans-Light;
+                font-size: 14px;
+                line-height: 1.3;
+                @media (min-width: 100px) and (max-width: 768px) {
+                  font-size: 11px;
+                  margin: 0 0 3vw 4vw;
+                  line-height: 1;
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  font-size: 13px;
+                  text-align: center;
+                  margin: 0 0 10vw;
+                }
+                @media (min-width: 100px) and (max-width: 320px) {
+                  font-size: 11px;
+                  text-align: center;
+                  margin: 0 0 10vw;
+                }
+                @media (min-width: 426px) and (max-width: 768px) {
+                  margin-top: 11px;
+                }
+              }
+              .Men {
+                margin:  0 0 1.5vw 4vw;
+                @media (min-width: 100px) and (max-width: 768px) {
+                  margin: 0 0 3.3vw 4vw;
+                }
+              }
+              span {
+                padding: 2vw 0;
+                margin: 0 0 0 4vw;
+                width: 65%;
+                cursor: pointer;
+                background-color: transparent;
+                border: 1px solid $gold;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                a {
+                  -webkit-align-self: center;
+                  -ms-flex-item-align: center;
+                  align-self: center;
+                  font-family: OpenSans-Extrabold;
+                  text-align: center;
+                  text-decoration: none;
+                  font-size: 15px;
+                  color: $colorS;
+                  &:hover {
+                    color: #ffffff;
+                  }
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    font-size: 12px;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 17px;
+                  }
+                  @media (min-width: 100px) and (max-width: 425px) {
+                    font-size: 14px;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    font-size: 11px;
+                  }
+                }
+                @media (min-width: 100px) and (max-width: 768px) {
+                  font-size: 11px;
+                }
+                &:hover {
+                  background-color: $gold;
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  //display: block;
+                  padding: 4vw 0;
+                  width: 60%;
+                  height: 3vw;
+                  margin: 0 auto;
+                }
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                width: 100%;
+              }
+            }
+            @media (min-width: 650px) and (max-width: 875px) {
+              width: 100%;
+            }
+            @media (min-width: 100px) and (max-width: 650px) {
+              width: 100%;
+            }
+          }
+        }
+        @media (min-width: 100px) and (max-width: 768px) {
+          background: url("../img/ladiesWatch/bg-watch.png") no-repeat 100% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+      }
+      .back-containerForCharacteristicOfNoLadiesForManSWatch {
+        background-color: #ffffff;
+        background: none;
+      }
+      &:before {
+        @extend %forBefore;
+        padding: 34%;
+      }
+      @media (min-width: 731px) and (max-width: 1200px) {
+        &:before {
+          padding: 46%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 940px) {
+        &:before {
+          padding: 50%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 768px) {
+        &:before {
+          padding: 42%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 650px) {
+        &:before {
+          padding: 44%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 610px) {
+        &:before {
+          padding: 48%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 680px) {
+        height: 620px;
+      }
+      @media (min-width: 100px) and (max-width: 650px) {
+        height: 570px;
+      }
+      @media (min-width: 100px) and (max-width: 576px) {
+        height: 610px;
+      }
+      @media (min-width: 100px) and (max-width: 520px) {
+        height: 676px;
+      }
+      @media (min-width: 100px) and (max-width: 500px) {
+        height: 695px;
+      }
+      @media (min-width: 100px) and (max-width: 480px) {
+        height: 1211px;
+      }
+      @media (min-width: 100px) and (max-width: 450px) {
+        height: 1209px;
+      }
+      @media (min-width: 100px) and (max-width: 420px) {
+        height: 1185px;
+      }@media (min-width: 100px) and (max-width: 390px) {
+      height: 1167px;
+    }
+      @media (min-width: 100px) and (max-width: 370px) {
+        height: 1174px;
+      }
+      @media (min-width: 100px) and (max-width: 350px) {
+        height: 1183px;
+      }
+      @media (min-width: 100px) and (max-width: 320px) {
+        height: 1100px;
+      }
+    }
+    .fancybox-slide--video .fancybox-content {
+      width  : 800px;
+      height : 600px;
+      max-width  : 80%;
+      max-height : 80%;
+    }
+  }
+}

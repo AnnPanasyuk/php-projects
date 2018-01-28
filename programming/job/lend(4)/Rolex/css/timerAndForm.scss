@@ -1,0 +1,471 @@
+html {
+  body {
+    .timerAndForm {
+      .containerForTimerAndForm {
+        position: relative;
+        width: 100%;
+        .back-containerForTimerAndForm {
+          @extend %back-container;
+          background: url("../img/timerAndForm/bg1.png") no-repeat 48% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+          .container {
+            height: 100%;
+            .tableForTimerAmdForm {
+              height: 100%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+              -webkit-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              .cardForTimerAndForm {
+                position: relative;
+                width: -webkit-calc(100% / 2.2);
+                width: calc(100% / 2.2);
+                -ms-flex-item-align: center;
+                -webkit-align-self: center;
+                align-self: center;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+                height: 32vw;
+                padding: 4vw 5vw;
+                .titleOfCardForTimerAndForm {
+                  h2 {
+                    color: #ffffff;
+                    font-size: 2em;
+                    text-align: center;
+                    font-family: OpenSans-Light;
+                    margin: 0 0 2vw;
+                    @media (min-width: 681px) and (max-width: 768px) {
+                      font-size: 1.4em;
+                    }
+                    @media (min-width: 100px) and (max-width: 680px) {
+                      font-size: 1.2em;
+                    }
+                    @media (min-width: 100px) and (max-width: 550px) {
+                      font-size: 0.9em;
+                    }
+                    @media (min-width: 100px) and (max-width: 480px) {
+                      font-size: 1.5em;
+                    }
+                  }
+                  hr {
+                    border: none;
+                    height: 0.1vw;
+                    width: 10vw;
+                    margin: 0 auto;
+                    color: $yellow;
+                    background-color: $yellow;
+                    @media (min-width: 100px) and (max-width: 768px) {
+                      height: 1px;
+                    }
+                  }
+                }
+                .endTimer {
+                  color: #ffffff;
+                  font-size: 0.9em;
+                  text-align: center;
+                  margin: 15px 0;
+                  font-family: OpenSans-Light;
+                  @media (min-width: 681px) and (max-width: 768px) {
+                    font-size: 0.7em;
+                  }
+                  @media (min-width: 100px) and (max-width: 680px) {
+                    font-size: 0.6em;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 0.8em;
+                  }
+                }
+                .containerForTimerF {
+                  position: relative;
+                  //margin: 33px 0 0;
+                  width: 100%;
+                  //@media (min-width: 100px) and (max-width: 768px) {
+                  // margin: 30px 0 0;
+                  //}
+                  //@media (min-width: 100px) and (max-width: 320px) {
+                   //margin: 30px 0 0;
+                  //}
+                }
+                .time {
+                  //position: absolute;
+                  //bottom: 0;
+                  //left: 18%;
+                  width: 64%;
+                  margin: 0 auto;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: -webkit-flex;
+                  display: flex;
+                  -webkit-box-orient: horizontal;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: row;
+                  -webkit-flex-direction: row;
+                  flex-direction: row;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                  justify-content: center;
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    width: 44%;
+                    //left: 28%;
+                  }
+                  @media (min-width: 100px) and (max-width: 375px) {
+                    width: 38%;
+                    //left: 41%;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    width: 100%;
+                    //left: 0;
+                  }
+                }
+
+                .time li {
+                  list-style: none;
+                  color: white;
+                  font-family: Oswald-Medium;
+                  //padding-top: 1vw;
+                  line-height: 1.4;
+                  @media (min-width: 100px) and (max-width: 600px) {
+                    padding: 0 0 0 0.5vw;
+                    line-height: 1.2;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    padding: 0 0 0 1vw;
+                    line-height: 1.5;
+                  }
+                  @media (min-width: 100px) and (max-width: 425px) {
+                    padding: 0 0 0 0.3vw;
+                    line-height: 1.5;
+                  }
+                  @media (min-width: 100px) and (max-width: 375px) {
+                    padding: 0 0 0 0;
+                    line-height: 1.5;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    padding: 0 0 0 0;
+                    line-height: 1.5;
+                  }
+                }
+
+                .time li:nth-child(2n+2) {
+                  margin-right: 6px;
+                }
+
+                .time-bg {
+                  background: url("../img/timerAndForm/splitter.png") no-repeat 100% 100%;
+                  -webkit-background-size: contain;
+                  background-size: contain;
+                  font-size: 3vw !important;
+                  width: 4vw !important;
+                  height: 100% !important;
+                  color: #000 !important;
+                  text-align: center;
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 3vw !important;
+                    width: 5vw !important;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    font-size: 20px !important;
+                    width: 5vw !important;
+                    height: 8vw !important;
+                  }
+                }
+
+                .time-bg-pad li {
+
+                  padding-right: 20px;
+                }
+
+                .time-name {
+                  //position: absolute;
+                  //top: 0;
+                  //left: 18%;
+                  /*overflow: hidden;*/
+                  height: auto;
+                  width: 64%;
+                  margin: 0 auto;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: -webkit-flex;
+                  display: flex;
+                  -webkit-box-orient: horizontal;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: row;
+                  -webkit-flex-direction: row;
+                  flex-direction: row;
+                  color: #ffffff;
+                  font-family: OpenSans-Light;
+                  font-size: 1.9em;
+                  -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                  -webkit-justify-content: space-around;
+                  justify-content: space-around;
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    width: 44%;
+                    //left: 28%;
+                  }
+                  @media (min-width: 100px) and (max-width: 375px) {
+                    width: 38%;
+                    //left: 41%;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    width: 64%;
+                    //left: 18%;
+                  }
+                }
+
+                .time-name li {
+                  list-style: none;
+                  font-size: 15px;
+                  @media (min-width: 426px) and (max-width: 768px) {
+                    font-size: 9px;
+                  }
+                  @media (min-width: 100px) and (max-width: 425px) {
+                    font-size: 7px;
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    font-size: 9px;
+                  }
+                }
+
+                .time-name li:last-child {
+                  position: relative;
+                  right: -2px;
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    right:  2px;
+                  }
+                }
+                form {
+                  width: 100%;
+                  margin: 2vw auto 0;
+                  .form-group {
+                    input {
+                      width: 100%;
+                      @media (min-width: 100px) and (max-width: 568px) {
+                        padding: 0 0 0 2%;
+                        width: 98%;
+                      }
+                    }
+                    input, select {
+                      height: 2.7vw;
+                      border: none;
+                      margin: 0 0 1vw;
+                      font-size: 0.8em;
+                      font-family: Oswald-Medium;
+                      color: #ffffff;
+                      border-bottom: 2px solid $yellow;
+                      outline: none;
+                      text-decoration: none;
+                      background-color: transparent;
+                      -webkit-box-shadow: none;
+                      box-shadow: none;
+                      &:focus {
+                        text-decoration: none;
+                        border: none;
+                        border-bottom: 2px solid $orange;
+                        outline: none;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                      }
+                      @media (min-width: 681px) and (max-width: 768px) {
+                        font-size: 0.6em;
+                      }
+                      @media (min-width: 100px) and (max-width: 680px) {
+                        font-size: 0.5em;
+                      }
+                      @media (min-width: 100px) and (max-width: 568px) {
+                        height: 23px;
+                      }
+                      @media (min-width: 100px) and (max-width: 480px) {
+                        font-size: 2.8vw;
+                      }
+                    }
+                    select {
+                      width: 100%;
+                      option {
+                        text-decoration: none;
+                        border: none;
+                        outline: none;
+                        background-color: #ffffff;
+                        color: #5c5c5c;
+                        font-size: 1.2em;
+                        font-family: Oswald-Medium;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        &:hover, &:focus {
+                          text-decoration: none;
+                          border: none;
+                          outline: none;
+                          background-color: #5c5c5c;
+                          color: #ffffff;
+                          -webkit-box-shadow: none;
+                          box-shadow: none;
+                        }
+                      }
+                    }
+                    ::-webkit-input-placeholder {color:#ffffff;}
+                    ::-moz-placeholder          {color:#ffffff;}/* Firefox 19+ */
+                    :-moz-placeholder           {color:#ffffff;}/* Firefox 18- */
+                    :-ms-input-placeholder      {color:#ffffff;}
+
+                  }
+                  .model {
+                    margin: 0 0 2vw;
+                  }
+                  .button {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-orient: horizontal;
+                    -webkit-box-direction: normal;
+                    -ms-flex-direction: row;
+                    -webkit-flex-direction: row;
+                    flex-direction: row;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    button {
+                      color: #ffffff;
+                      font-family: OpenSans-Extrabold;
+                      font-size: 0.9em;
+                      width: 48%;
+                      height: 50px;
+                      background: -webkit-gradient(linear, left bottom, left top, from($orange), to($yellow));
+                      background: -webkit-linear-gradient(bottom, $orange, $yellow);
+                      background: -o-linear-gradient(bottom, $orange, $yellow);
+                      background: linear-gradient(to top, $orange, $yellow);
+                      border: none;
+                      -webkit-box-shadow: none;
+                      box-shadow: none;
+                      text-decoration: none;
+                      &:hover {
+                        background: -webkit-gradient(linear, left bottom, left top, from($yellow), to($orange));
+                        background: -webkit-linear-gradient(bottom, $yellow, $orange);
+                        background: -o-linear-gradient(bottom, $yellow, $orange);
+                        background: linear-gradient(to top, $yellow, $orange);
+                        border: none;
+                        -webkit-box-shadow: none;
+                        box-shadow: none;
+                        outline: none;
+                        text-decoration: none;
+                      }
+                      @media (min-width: 681px) and (max-width: 768px) {
+                        font-size: 11px;
+                      }
+                      @media (min-width: 100px) and (max-width: 680px) {
+                        font-size: 9px;
+                      }
+                      @media (min-width: 100px) and (max-width: 600px) {
+                        font-size: 8px;
+                      }
+                      @media (min-width: 100px) and (max-width: 530px) {
+                        height: 5vw;
+                        width: -webkit-calc(100% / 1.9);
+                        width: calc(100% / 1.9);
+                      }
+                      @media (min-width: 100px) and (max-width: 485px) {
+                        width: -webkit-calc(100% / 1.8);
+                        width: calc(100% / 1.8);
+                      }
+                      @media (min-width: 100px) and (max-width: 480px) {
+                        width: -webkit-calc(100% / 2.2);
+                        width: calc(100% / 2.2);
+                        height: 6vw;
+                        font-size: 2.2vw;
+                      }
+                      @media (min-width: 100px) and (max-width: 320px) {
+                        height: 30px;
+                        width: 140px;
+                        margin: 5vw 0 0;
+                        font-size: 10px;
+                      }
+                    }
+                  }
+                  @media (min-width: 100px) and (max-width: 320px) {
+                    margin-top: 4vw;
+                  }
+                }
+                @media (min-width: 100px) and (max-width: 1024px) {
+                  padding: 0 5vw 4vw;
+                }
+                @media (min-width: 100px) and (max-width: 768px) {
+                  height: 36vw;
+                }
+                @media (min-width: 100px) and (max-width: 480px) {
+                  width: 100%;
+                  height: 56vw;
+                }
+                @media (min-width: 100px) and (max-width: 375px) {
+                  height: 65vw;
+                }
+                @media (min-width: 100px) and (max-width: 320px) {
+                  height: 76vw;
+                }
+              }
+            }
+          }
+          @media (min-width: 100px) and (max-width: 480px) {
+            background: url("../img/timerAndForm/mb1.png") no-repeat 48% 100%;
+            -webkit-background-size: cover;
+            background-size: cover;
+          }
+        }
+        .back-containerForTimerAndForm2 {
+          @extend %back-container;
+          background: url("../img/timerAndForm/bg2.png") no-repeat 48% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+          @media (min-width: 100px) and (max-width: 480px) {
+            background: url("../img/timerAndForm/mb2.png") no-repeat 48% 100%;
+            -webkit-background-size: cover;
+            background-size: cover;
+          }
+        }
+        &:before {
+          @extend %forBefore;
+          padding: 28%;
+        }
+        @media (min-width: 100px) and (max-width: 530px) {
+          &:before {
+            padding: 32%;
+          }
+        }
+        @media (min-width: 100px) and (max-width: 480px) {
+          height: 80vw;
+          &:before {
+            padding: 40%;
+          }
+        }
+        @media (min-width: 100px) and (max-width: 375px) {
+          height: 90vw;
+        }
+        @media (min-width: 100px) and (max-width: 320px) {
+          height: 100vw;
+        }
+      }
+    }
+  }
+}

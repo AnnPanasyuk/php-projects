@@ -1,0 +1,7 @@
+html body .container {
+  width: calc(100% - 50px - 50px); }
+  html body .container .logo {
+    position: relative;
+    width: calc(100% / 6); }
+
+/*# sourceMappingURL=commonStyle.css.map */

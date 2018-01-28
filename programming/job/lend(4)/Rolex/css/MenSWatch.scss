@@ -1,0 +1,32 @@
+html {
+  body {
+    .MenSWatch {
+      position: relative;
+      width: 100%;
+      .back-containerForNoLadiesForMenSWatch {
+        @extend %back-container;
+        background: url("../img/MenSWatch/1-banner.png") no-repeat 50% 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        @media (min-width: 100px) and (max-width: 560px) {
+          background: url("../img/MenSWatch/1-banner.png") no-repeat 40% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+        .container {
+          height: 100%;
+        }
+      }
+      &:before {
+        @extend %forBefore;
+        padding: 16%;
+      }
+      @media (min-width: 100px) and (max-width: 560px) {
+        &:before {
+          padding: 21%;
+        }
+      }
+    }
+
+  }
+}

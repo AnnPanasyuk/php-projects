@@ -1,0 +1,80 @@
+html {
+  body {
+    .ladiesWatchForMbVersion {
+      display: none;
+      background-color: $e7;
+      .containerLadiesWatchForMbVersion {
+        position: relative;
+        width: 100%;
+        .back-containerLadiesWatchForMbVersion {
+          @extend %back-container;
+          background: url("../img/ladiesWatch/LadBannerForMb.png") no-repeat  100% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+        .back-containerMenSWatchForMbVersion {
+          @extend %back-container;
+          background: url("../img/MenSWatch/bnMbMenS.png") no-repeat  100% 100%;
+          -webkit-background-size: cover;
+          background-size: cover;
+        }
+        &:before {
+          @extend %forBefore;
+          padding: 30%;
+        }
+      }
+      @media (min-width: 100px) and (max-width: 480px) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+      }
+      .containerForInfoOfLadiesWatchOfMbV {
+        .titleOfLadiesWatch {
+          width: 90%;
+          margin: 0 auto;
+          .rolex {
+            font-family: OpenSans-Light;
+            color: $gold;
+            font-size: 1.3em;
+            text-align: center;
+            margin: 12vw 0 2.5vw;
+          }
+          h2 {
+            font-family: OpenSans-Light;
+            margin: 4.5vw 0;
+            text-align: center;
+            font-size: 1.5em;
+            color: $colorS;
+          }
+          hr {
+            font-family: OpenSans-Light;
+            border: none;
+            background-color: $gold;
+            color: $gold;
+            height: 0.6vw;
+            width: 35%;
+            margin: 0 auto;
+          }
+          .model {
+            font-family: OpenSans-Light;
+            line-height: 1.6;
+            color: $colorS;
+            font-size: 0.9em;
+            text-align: center;
+            margin: 4.5vw 0 12vw;
+          }
+        }
+      }
+    }
+  }
+}

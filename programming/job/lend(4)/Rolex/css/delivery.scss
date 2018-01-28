@@ -1,0 +1,177 @@
+html {
+  body {
+    .delivery {
+      padding: 6vw 0 0;
+      .container {
+        .titleOfDelivery {
+          width: -webkit-calc(100% / 1.8);
+          width: calc(100% / 1.8);
+          margin: 0 auto;
+          h2 {
+            font-family: OpenSans-Light;
+            line-height: 1.3;
+            padding: 0 0 2vw;
+            font-size: 1.8em;
+            color: $colorS;
+            text-align: center;
+            @media (min-width: 100px) and (max-width: 768px) {
+              font-size: 1.1em;
+            }
+            @media (min-width: 100px) and (max-width: 480px) {
+              font-size: 1.5em;
+            }
+          }
+          hr {
+            border: none;
+            height: 0.2vw;
+            margin: 0 auto;
+            width: 8vw;
+            color: $gold;
+            background-color: $gold;
+            @media (min-width: 100px) and (max-width: 480px) {
+              height: 0.8vw;
+              width: 40vw;
+            }
+          }
+          p {
+            font-family: OpenSans-Light;
+            margin: 2vw 0 4vw;
+            line-height: 1.3;
+            font-size: 0.9em;
+            color: $colorS;
+            text-align: center;
+            @media (min-width: 100px) and (max-width: 768px) {
+              font-size: 0.7em;
+            }
+            @media (min-width: 100px) and (max-width: 480px) {
+              font-size: 0.8em;
+            }
+          }
+          @media (min-width: 100px) and (max-width: 480px) {
+            width: 100%;
+          }
+        }
+        .containerForImgOfParagraphOfDelivery {
+          width: -webkit-calc(100% / 1.4);
+          width: calc(100% / 1.4);
+          margin: 0 auto;
+          .paragraphs {
+            position: relative;
+            width: 100%;
+            margin: 0 0 0.5vw;
+            .back-containerForFirstParagraph {
+              @extend %back-container;
+              background: url("../img/delivery/11.png") no-repeat 100% 100%;
+              -webkit-background-size: cover;
+              background-size: cover;
+            }.back-containerForSecondParagraph {
+               @extend %back-container;
+               background: url("../img/delivery/22.png") no-repeat 100% 100%;
+               -webkit-background-size: cover;
+               background-size: cover;
+             }.back-containerForThirdParagraph {
+                @extend %back-container;
+                background: url("../img/delivery/33.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }.back-containerForFourthParagraph {
+                 @extend %back-container;
+                 background: url("../img/delivery/44.png") no-repeat 100% 100%;
+                 -webkit-background-size: cover;
+                 background-size: cover;
+               }
+            .back-containerForParagraph {
+              .descriptionForParagraphOfDelivery {
+                width: 40%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                height: 100%;
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                -webkit-flex-direction: row;
+                flex-direction: row;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+                margin:  0 auto;
+                .imgForDelivery {
+                  -ms-flex-item-align: center;
+                  -webkit-align-self: center;
+                  align-self: center;
+                  position: relative;
+                  width: 33%;
+                  margin: 0 1vw 0 0;
+                  .back-containerImgForDelivery1 {
+                    @extend %back-container;
+                    background: url("../img/delivery/1icon.png") no-repeat 100% 100%;
+                    -webkit-background-size: contain;
+                    background-size: contain;
+                  }.back-containerImgForDelivery2 {
+                     @extend %back-container;
+                     background: url("../img/delivery/2icon.png") no-repeat 100% 100%;
+                     -webkit-background-size: contain;
+                     background-size: contain;
+                   }.back-containerImgForDelivery3 {
+                      @extend %back-container;
+                      background: url("../img/delivery/3icon.png") no-repeat 100% 100%;
+                      -webkit-background-size: contain;
+                      background-size: contain;
+                    }.back-containerImgForDelivery4 {
+                       @extend %back-container;
+                       background: url("../img/delivery/4icon.png") no-repeat 100% 100%;
+                       -webkit-background-size: contain;
+                       background-size: contain;
+                     }
+                  &:before {
+                    @extend %forBefore;
+                    padding: 40%;
+                  }
+                }
+                p {
+                  font-family: OpenSans-Extrabold;
+                  color: #ffffff;
+                  font-size: 0.8em;
+                  -ms-flex-item-align: center;
+                  -webkit-align-self: center;
+                  align-self: center;
+                  width: 66%;
+                  margin: 0 0 0 2vw;
+                  @media (min-width: 100px) and (max-width: 768px) {
+                    font-size: 0.6em;
+                  }
+                  @media (min-width: 100px) and (max-width: 600px) {
+                    font-size: 0.5em;
+                  }
+                  @media (min-width: 100px) and (max-width: 480px) {
+                    font-size: 0.7em;
+                  }
+                }
+              }
+            }
+            &:before {
+              @extend %forBefore;
+              padding: 6%;
+            }
+            @media (min-width: 100px) and (max-width: 530px) {
+              &:before {
+                padding: 8%;
+              }
+            }
+            @media (min-width: 100px) and (max-width: 375px) {
+              &:before {
+                padding: 12%;
+              }
+            }
+          }
+          @media (min-width: 100px) and (max-width: 480px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

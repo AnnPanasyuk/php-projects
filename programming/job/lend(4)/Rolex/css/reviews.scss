@@ -1,0 +1,200 @@
+html {
+  body {
+    .reviews {
+      padding: 6vw 0 0;
+      height: 50vw;
+      .containerForReviews {
+        .container {
+          width: 70%;
+          .titleOfReviews {
+            width: -webkit-calc(100% / 1.8);
+            width: calc(100% / 1.8);
+            margin: 0 auto;
+            h2 {
+              font-family: OpenSans-Light;
+              line-height: 1.3;
+              padding: 0 0 2vw;
+              font-size: 1.8em;
+              color: $colorS;
+              text-align: center;
+              @media (min-width: 100px) and (max-width: 768px) {
+                font-size: 1.1em;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                font-size: 1.5em;
+              }
+            }
+            hr {
+              border: none;
+              height: 0.2vw;
+              margin: 0 auto;
+              width: 8vw;
+              color: $gold;
+              background-color: $gold;
+              @media (min-width: 100px) and (max-width: 480px) {
+                height: 0.8vw;
+                width: 40vw;
+              }
+            }
+            p {
+              font-family: OpenSans-Light;
+              margin: 2vw 0 4vw;
+              line-height: 1.3;
+              font-size: 0.9em;
+              color: $colorS;
+              text-align: center;
+              @media (min-width: 100px) and (max-width: 768px) {
+                font-size: 0.7em;
+              }
+              @media (min-width: 100px) and (max-width: 480px) {
+                font-size: 0.8em;
+              }
+              @media (min-width: 100px) and (max-width: 375px) {
+                margin: 2vw 0 8vw;
+              }
+            }
+            @media (min-width: 100px) and (max-width: 480px) {
+              width: 100%;
+            }
+          }
+          .fade {
+            -webkit-box-shadow: 0 0 1vw rgba(0, 0, 0, 0.28);
+            box-shadow: 0 0 1vw rgba(0, 0, 0, 0.28);
+            background-color: #FFFFFF;
+            width: -webkit-calc(100% / 2.3);
+            width: calc(100% / 2.3);
+            margin: 0 auto;
+            .mPrev {
+              position: absolute;
+              width: 5%;
+              top: 40%;
+              left: -10vw;
+            }
+            .mNext {
+              position: absolute;
+              width: 5%;
+              top: 40%;
+              right: -10vw;
+            }
+            .containerForArrow {
+              position: relative;
+              width: 100%;
+              .back-containerForArrow {
+                @extend %back-container;
+              }
+              .back-containerForPrev {
+                background: url("../img/slider/prev.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              .back-containerForNext {
+                background: url("../img/slider/next.png") no-repeat 100% 100%;
+                -webkit-background-size: cover;
+                background-size: cover;
+              }
+              &:before {
+                @extend %forBefore;
+                padding: 97%;
+              }
+              &:hover {
+                .back-containerForPrev {
+                  background: url("../img/slider/prevHover.png") no-repeat 100% 100%;
+                  -webkit-background-size: cover;
+                  background-size: cover;
+                }
+                .back-containerForNext {
+                  background: url("../img/slider/nextHover.png") no-repeat 100% 100%;
+                  -webkit-background-size: cover;
+                  background-size: cover;
+                }
+              }
+            }
+            .slick-dots li button:before {
+              color: $gold;
+            }
+            ul {
+              bottom: -5vw;
+              li {
+                button {
+
+                }
+              }
+              @media (min-width: 100px) and (max-width: 430px) {
+                bottom: -10vw;
+              }
+            }
+            .cardOFReviews {
+              padding: 3vw 2vw;
+
+              img {
+                width: 8vw;
+                height: 8vw;
+                margin: 0 auto 2vw;
+              }
+              blockquote {
+                color: #000000;
+                font-family: OpenSans-Light;
+                font-size: 0.9em;
+                text-align: center;
+                line-height: 1.3;
+                margin: 0 0 2vw;
+                @media (min-width: 100px) and (max-width: 576px) {
+                  font-size: 0.7em;
+                }
+              }
+              p {
+                text-align: center;
+                color: $colorS;
+                font-size: 0.9em;
+                font-family: OpenSans-Extrabold;
+                @media (min-width: 100px) and (max-width: 576px) {
+                  font-size: 0.7em;
+                }
+              }
+              @media (min-width: 100px) and (max-width: 680px) {
+                left: 13%;
+              }
+            }
+            @media (min-width: 100px) and (max-width: 680px) {
+              width: 75%;
+            }
+            @media (min-width: 100px) and (max-width: 375px) {
+              width: 100%;
+            }
+          }
+        }
+      }
+      @media (min-width: 769px) and (max-width: 1024px) {
+        height: 62vw;
+      }
+      @media (min-width: 661px) and (max-width: 768px) {
+        height: 75vw;
+      }
+      @media (min-width: 100px) and (max-width: 660px) {
+        height: 70vw;
+      }
+      @media (min-width: 100px) and (max-width: 550px) {
+        padding: 15vw 0 0;
+        height: 68vw;
+      }
+      @media (min-width: 100px) and (max-width: 480px) {
+        height: 75vw;
+      }
+      @media (min-width: 100px) and (max-width: 430px) {
+        height: 90vw;
+      }
+      @media (min-width: 100px) and (max-width: 390px) {
+        height: 105vw;
+      }
+      @media (min-width: 100px) and (max-width: 350px) {
+        height: 115vw;
+      }
+      @media (min-width: 100px) and (max-width: 330px) {
+        height: 130vw;
+      }
+      @media (min-width: 100px) and (max-width: 320px) {
+        height: 435px;
+      }
+    }
+  }
+}
